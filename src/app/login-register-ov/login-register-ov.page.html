@@ -1,9 +1,16 @@
-<ion-header>
+<ion-header >
   <ion-toolbar>
     <ion-title>login-register-ov</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="has-footer">
+
+  <div id="login-buttons" style="position: absolute; bottom: 5%; width: 100%">
+      <ion-button class="facebook" expand="block" shape="round" (click)="facebookAuth()">Mit Facebook einloggen</ion-button>
+      <ion-button class="google" expand="block" shape="round" color="danger" (click)="googleAuth()">Mit Google einloggen</ion-button>
+      <ion-button class="create_account" expand="block" shape="round" color="light" (click)="register()">Account erstellen</ion-button>
+      <ion-button class="email_login" expand="block" fill="clear" (click)="login()">Mit Email einloggen</ion-button>
+  </div>
 
 </ion-content>

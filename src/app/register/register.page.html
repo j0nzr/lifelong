@@ -1,9 +1,42 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar style="display: none;">
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
     <ion-title>register</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <div style="background-color: rgb(230, 43, 96); height: 17%">
+    <ion-button fill="clear" style="--color: white" (click)="backButton()">&lt;  Back</ion-button>
+    <div text-center><button class="circle"><img src="../../assets/_ionicons_svg_ios-camera.svg"/></button></div>
+  </div>
+  <ion-list style="padding-top: 45px">
+    <ion-item>
+      <ion-label><ion-icon name="person"></ion-icon></ion-label>
+      <ion-input placeholder="Vorname" type="text" [(ngModel)]="prename"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label><ion-icon name="person"></ion-icon></ion-label>
+        <ion-input placeholder="Nachname" type="text" [(ngModel)]="name"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label><ion-icon name="mail"></ion-icon></ion-label>
+        <ion-input placeholder="Email-Adresse" type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label><ion-icon name="lock"></ion-icon></ion-label>
+        <ion-input placeholder="Passwort" type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label><ion-icon name="male"></ion-icon></ion-label>
+        <ion-input placeholder="Geschlecht" [(ngModel)]="gender"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label><ion-icon name="calendar"></ion-icon></ion-label>
+        <ion-input placeholder="Geburtstag" type="date" [(ngModel)]="birth"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button expand="block" (click)="registerUser()">Account erstellen</ion-button>
 </ion-content>

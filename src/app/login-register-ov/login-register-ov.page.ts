@@ -1,4 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgxAuthFirebaseUIModule, AuthProvider, Theme } from 'ngx-auth-firebaseui';
+import { auth } from 'firebase/app';
+import { AngularFireAuth } from '@angular/fire/auth';
+import { RegisterPage } from '../register/register.page';
+import { Router } from '@angular/router';
+import { AndroidFullScreen } from '@ionic-native/android-full-screen/ngx';
+
+
 
 @Component({
   selector: 'app-login-register-ov',
@@ -7,9 +15,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginRegisterOvPage implements OnInit {
 
-  constructor() { }
+  constructor(public afAuth: AngularFireAuth, public router: Router, private androidFullScreen: AndroidFullScreen){
+    this.androidFullScreen.isImmersiveModeSupported()
+      .then(() => console.log('Immersive mode supported'))
+      .catch(err => console.log(err));
+
+  }
 
   ngOnInit() {
+  }
+
+  
+
+  facebookAuth(){
+    this.afAuth.auth.signInWithPopup(new auth.FacebookAuthProvider());
+  }
+
+  googleAuth(){
+      this.afAuth.auth.signInWithPopup(new auth.GoogleAuthProvider());
+  }
+
+  register(){
+    this.router.navigateByUrl('/register');
+  }
+
+  login(){
+    this.router.navigateByUrl('/login-email');
   }
 
 }

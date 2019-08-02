@@ -1,7 +1,10 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
+import { NgxAuthFirebaseUIModule, AuthProvider, Theme } from 'ngx-auth-firebaseui';
+import { auth } from 'firebase/app';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -19,8 +22,11 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    NgxAuthFirebaseUIModule
   ],
   declarations: [LoginRegisterOvPage]
 })
-export class LoginRegisterOvPageModule {}
+export class LoginRegisterOvPageModule{
+
+}
