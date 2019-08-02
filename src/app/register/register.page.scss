@@ -1,0 +1,12 @@
+.circle{
+    display:block;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    z-index: 3;
+    position: sticky;
+    transform: translateY(50%);
+    display: block;
+    margin: 0 auto;
+}

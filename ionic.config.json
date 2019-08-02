@@ -1,5 +1,7 @@
 {
   "name": "lifelong",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
