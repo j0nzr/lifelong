@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { AngularFireAuth } from '@angular/fire/auth'; 
 
 const routes: Routes = [
   { path: '', redirectTo: 'login-register-ov', pathMatch: 'full' },
@@ -8,7 +9,20 @@ const routes: Routes = [
   { path: 'register', loadChildren: './register/register.module#RegisterPageModule' },
   { path: 'login-register-ov', loadChildren: './login-register-ov/login-register-ov.module#LoginRegisterOvPageModule' },
   { path: 'password-reset', loadChildren: './password-reset/password-reset.module#PasswordResetPageModule' },
+  { path: 'add-partner', loadChildren: './add-partner/add-partner.module#AddPartnerPageModule' },
 ];
+
+function redirect(_afAuth: AngularFireAuth): string{
+  var result: string;
+  var _afAuth: AngularFireAuth;
+
+  if (_afAuth.auth.currentUser){
+    result = 'home';
+  } else{
+    result = 'login-register-ov'
+  }
+  return result;
+}
 
 @NgModule({
   imports: [
@@ -16,4 +30,5 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { 
+}
