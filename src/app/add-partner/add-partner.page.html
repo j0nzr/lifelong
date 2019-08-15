@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Partner hinzufügen</ion-title>
+    <ion-button slot="end" fill="clear">Später</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="qr-container">
+    {{ ownCode }}
+  </div>
+
+   <p style="margin: 0 10% 0 10%">Hier kannst du dich mit deinem Partner verbinden. Dafür muss einer von euch den Partnercode scannen oder eingeben</p>
+
+   <ion-item style="width: 80%;margin: 3% 10% 3% 10%">
+      <ion-input placeholder="Partnercode eingeben"></ion-input>
+      <ion-button clear item-right><ion-icon name="barcode"></ion-icon></ion-button>
+    </ion-item>
+
+   <p class="ion-text-center"><ion-text color="primary">Partnercode teilen</ion-text></p>
+
+</ion-content>
