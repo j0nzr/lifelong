@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFireAuth } from '@angular/fire/auth'; 
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-password-reset',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PasswordResetPage implements OnInit {
 
-  constructor() { }
+  public email: string;
+
+  constructor(private _auth: AngularFireAuth, private _location: Location) { }
 
   ngOnInit() {
+  }
+
+  resetPass(){
+    this._auth.auth.sendPasswordResetEmail(this.email);
+  }
+
+  backButton(){
+      this._location.back();
   }
 
 }
