@@ -10,7 +10,7 @@
 <ion-content>
   <div style="background-color: rgb(230, 43, 96); height: 17%">
     <ion-button fill="clear" style="--color: white" (click)="backButton()">&lt;  Back</ion-button>
-    <div text-center><button class="circle"><img src="../../assets/_ionicons_svg_ios-camera.svg"/></button></div>
+    <div text-center><button class="circle" (click)="uploadButton()"><img src="../../assets/_ionicons_svg_ios-camera.svg"/></button></div>
   </div>
   <ion-list style="padding-top: 45px">
     <ion-item>
@@ -39,4 +39,6 @@
     </ion-item>
   </ion-list>
   <ion-button expand="block" (click)="registerUser()">Account erstellen</ion-button>
+  <!--<input style="visibility: hidden;" type="file" id="profilePicture" (change)="upload($event)" accept=".png,.jpg"/>-->
+  <button id="profilePicture" style="visibility: hidden" (click)="console.log('something')"></button>
 </ion-content>
