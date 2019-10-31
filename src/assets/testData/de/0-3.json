@@ -1,0 +1,320 @@
+{
+    "data": [
+    {
+        "text": "Mein Partner ermutigt mich häufig. Er sagt mir oft, was er an mir liebt.",
+        "imageText": "",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Ich erfahre ständig neue Dinge über meinen Partner, wenn wir uns unterhalten.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Wir diskutieren so lange, bis einer von uns beiden überzeugt ist oder wir eine gute Kompromisslösung gefunden haben.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Wir haben immer viele Gesprächsthemen.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Wir streiten oft unfair.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Ich weiß viele Dinge von meinem Partner, die kennt sonst niemand.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner lässt mich grundsätzlich immer ausreden.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner hört mir immer aufmerksam zu, das sehe ich an seinem Blick und seinen Reaktionen.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner würde nie auf sein Handy schauen, wenn wir uns unterhalten.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Ich fühle mich von meinem Partner oft missverstanden.",
+        "type": "communication",
+        "isReversed": true
+    },
+    {
+        "text": "Ich kann mit meinem Partner auch über meine tiefsten Gefühle sprechen.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Nach einem Streit vergeben wir einander und versöhnen uns.",
+        "type": "communication",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner würde mich niemals anlügen.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Ich fühle mich von meinem Partner geliebt.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Ich kann meinem Partner absolut vertrauen.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Es ist okay, ein paar Geheimnisse vor dem Partner zu haben.",
+        "type": "honestyTrust",
+        "isReversed": true
+    },
+    {
+        "text": "Ich schäme mich manchmal vor meinem Partner.",
+        "type": "honestyTrust",
+        "isReversed": true
+    },
+    {
+        "text": "Ich kann über alles mit meinem Partner sprechen.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Ich denke, mein Partner vertraut mir.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Ich finde es wichtig, dass man über die Vergangenheit des Partners Bescheid weiß.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Unsere Beziehung ist darauf geründet, dass wir zueinander offen und ehrlich sind.",
+        "type": "honestyTrust",
+        "isReversed": false
+    },
+    {
+        "text": "Ich fühle mich absolut geliebt von meinem Partner.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner macht mir oft Geschenke.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner ist sehr hilfsbereit, er hilft mir oft.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Ich habe häufig Angst, dass mein Partner mich nicht wirklich liebt.",
+        "type": "needs",
+        "isReversed": true
+    },
+    {
+        "text": "Ich fühle mich total geborgen in meiner Beziehung.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner sagt mir oft, dass er mich liebt.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner und ich verbringen oft Zeit zu zweit.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner gibt mir das Gefühl, etwas ganz Besonderes zu sein.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner fragt mich oft nach meinen Bedürfnissen und Wünschen.",
+        "type": "needs",
+        "isReversed": false
+    },
+    {
+        "text": "Ich finde, wir passen perfekt zusammen.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner ist oft ganz anders als ich, aber damit komme ich gut zurecht.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Ich liebe die Persönlichkeit meines Partner.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Ich fühle mich als Person zu 100% von meinem Partner wertgeschätzt.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Wir verstehen einander blind.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner hat höchsten Respekt vor mir und zeigt mir das auch.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Ich frage mich oft, was mein Partner überhaupt an mir findet.",
+        "type": "personality",
+        "isReversed": true
+    },
+    {
+        "text": "Ich finde es super, dass wir in mancher Hinsicht ganz unterschiedlich sind.",
+        "type": "personality",
+        "isReversed": false
+    },
+    {
+        "text": "Wir können über unsere Erwartungen hinsichtlich Zärtlichkeit und Sexualität offen und unbefangen reden.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Wir haben die gleiche Einstellung dazu, welche Rolle Sexualität in unserer Beziehung spielt.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner respektiert die Grenzen, die ich ziehe.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Probleme mit Zärtlichkeit oder Sexualität können wir lösen.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Treue ist für mich sehr wichtig.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Zärtlichkeit muss nicht gleich Sexualität bedeuten.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Ich fühle mich geliebt, weil mein Partner nur noch Augen für mich hat.",
+        "type": "physical",
+        "isReversed": false
+    },
+    {
+        "text": "Wir nehmen uns häufig Zeit für uns beide allein.",
+        "type": "time",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner und ich haben die gleiche Vorstellung darüber, wieviel Zeit wir miteinander verbringen sollten.",
+        "type": "time",
+        "isReversed": false
+    },
+    {
+        "text": "Unsere gemeinsame Zeit ist immer mit Aktivitäten gefüllt, die mir sehr viel Spaß machen.",
+        "type": "time",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner schenkt mir ungeteilte Aufmerksamkeit, wenn wir zu zweit sind.",
+        "type": "time","isReversed": false
+
+    },
+    {
+        "text": "Wir haben viele gemeinsame Hobbys und Interessen.",
+        "type": "time",
+        "isReversed": false
+    },
+    {
+        "text": "Wir sind nie allein, wenn wir zusammen sind, immer sind Freunde oder Familie meines Partners anwesend.",
+        "type": "time",
+        "isReversed": true
+    },
+    {
+        "text": "Mein Partner hat so einen vollen Terminplan, da passe ich kaum rein.",
+        "type": "time",
+        "isReversed": true
+    },
+    {
+        "text": "Es macht Spaß, unsere gemeinsame Zeit zu planen.",
+        "type": "time",
+        "isReversed": false
+    },
+    {
+        "text": "Ich kenne die Träume und Wünsche meines Partners.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner interessiert sich sehr für meine Träume.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner hat in einigen Bereichen andere Wertvorstellungen als ich.",
+        "type": "valuesDreams",
+        "isReversed": true
+    },
+    {
+        "text": "Ich genieße es, mich mit meinem Partner über unsere gemeinsame Zukunft zu unterhalten und Pläne zu schmieden.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Wir teilen den gleichen Glauben.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Wir beten gemeinsam.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Die Wünsche und Träume meines Partners sind hervorragend mit meinen eigenen zu vereinbaren.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Wir streiten uns häufig über Politik oder Glaubensfragen.",
+        "type": "valuesDreams",
+        "isReversed": true
+    },
+    {
+        "text": "Die Basis meiner Wertvorstellungen und die meines Partner sind identisch.",
+        "type": "valuesDreams",
+        "isReversed": false
+    },
+    {
+        "text": "Mein Partner hält mich häufig für zu extrem.",
+        "type": "valuesDreams",
+        "isReversed": true
+    }
+]
+}

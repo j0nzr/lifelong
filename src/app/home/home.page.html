@@ -1,15 +1,41 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
-  <ion-button (click)="addPartner()">Add Partner</ion-button>
+
+  <ion-item *ngIf="test==false" lines="none">
+  <ion-card>
+    <ion-card-content button="true">
+      Hey!<br> Du hast den Partnerschaftstest ja noch garnicht absolviert. Willst du das jetzt tun? <br>
+      <ion-button (click)="toTest()">Zum Test</ion-button>
+    </ion-card-content>
+  </ion-card>
+  </ion-item>
+
+  <ion-item *ngIf="partner==false" lines="none">
+  <ion-card>
+    <ion-card-content button="true">
+      Hey! <br> Du hast deinen Partner ja noch garnicht hinzugefügt. Willst du das jetzt tun? <br>
+      <ion-button (click)="addPartner()">Partner hinzufügen</ion-button>
+  </ion-card-content>
+  </ion-card>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Tipp des Tages</ion-card-title>
+      </ion-card-header>
+      <ion-card-content button="true">
+        Hier kommt der Tipp des Tages rein. <br>
+        <ion-button (click)="shareTipp()" fill="clear" slot="icon-only"><ion-icon name="share"></ion-icon></ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+
 </ion-content>

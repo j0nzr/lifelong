@@ -1,0 +1,129 @@
+{
+    "communication": {
+        "summary": "Die ideale Kommunikation in der Partnerschaft ist der liebevolle, aufmerksame und offene Austausch von Gedanken und Gefühlen. Dabei ist Kommunikation nicht nur das, was du sagst. Kommunikation hängt mit vielen Faktoren zusammen: Körpersprache, Mimik, Gesprächston und die Art und Weise, wie dein Partner hört, was du sagst.",
+        "tips": [{
+                "text": "Bevor du Kritik ausspricht, sage erst mal 5 Dinge, die du gut findest!"
+            },
+            {
+                "text": "Nehmt euch einen Abend in der Woche Zeit zu zweit und tauscht euch über Folgendes aus:",
+                "listitems": [
+                    "Was beschäftigt dich momentan am meisten?",
+                    "Was waren deine besten Erlebnisse in der vergangenen Woche?",
+                    "Was war schwierig für dich?",
+                    "Was wünschst du dir?"
+                ]
+            },
+            {
+                "text": "Siehe auch Special Tips – Let’s talk together"
+            }
+        ]
+    },
+    "time": {
+        "summary": "Partnerschaft braucht Zeit. Zeit um sich auszutauschen, um schöne Erinnerungen aufzubauen, die Liebe zu genießen und das Leben zu planen. Und um Probleme zu bearbeiten und Konflikte zu lösen. Jeder hat eine andere Vorstellung davon, wieviel Zeit man mit dem Partner verbringen möchte und wie diese gestaltet sein soll. Es ist jedoch wichtig, sich Zeit zu zweit herauszunehmen. Egal, wie lange ihr schon zusammen seid. Und insbesondere, wenn ihr Kinder habt.",
+        "tips": [{
+                "text": "Klärt eure Erwartungen:",
+                "listitems": [
+                    "Seid ihr beide mit eurer Zeitgestaltung glücklich?",
+                    "Was könntet ihr verbessern?",
+                    "Wie würde der perfekte gemeinsame Tag aussehen?"
+                ]
+            },
+            {
+                "text": "Plant einen gemeinsamen Ausflug oder Urlaub."
+            },
+            {
+                "text": "Habt ihr ein gemeinsames Hobby? Überlegt euch eins."
+            }
+        ]
+    },
+    "valuesDreams": {
+        "summary": "Die Überzeugungen, die dein Leben prägen, sind deine Werte. Eure Werte und Überzeugungen können unterschiedlich sein. Für eine tragfähige Beziehung solltet ihr jedoch die wichtigsten Werte eures Lebens teilen. Träume sind deine Wünsche und Ziele für die Zukunft. Sie hängen eng mit deinen Werten zusammen.",
+        "tips": [{
+                "text": "Tauscht euch über eure Überzeugungen und Werte aus:",
+                "listitems": [
+                    "Was erwartest du von eurer Beziehung?",
+                    "Wie stehst du zu Treue und Ehrlichkeit?",
+                    "Welche Rolle spielt dein Beruf?",
+                    "Bist du ein gläubiger Mensch? Wie sieht das gemeinsames Glaubensleben aus?",
+                    "Was bedeuten dir Freiheit und Unabhängigkeit?",
+                    "Was ist mit Kindern? Wie wünschst du dir die Erziehung der Kinder?"
+                ]
+            },
+            {
+                "text": "Welche Lebensträume hast du? Überlegt euch gemeinsam, wie euer Leben in 10 Jahren aussehen soll."
+            }
+        ]
+    },
+    "personality": {
+        "summary": "Die Persönlichkeit des Menschen beschreibt seine Charaktereigenschaften und Verhaltensweisen. Manche Menschen sind impulsiv, andere eher zurückhaltend. Manchen Menschen ist das Zusammensein mit anderen Menschen sehr wichtig, andere sind lieber allein. Wenn ihr die Persönlichkeit des anderen kennt, könnt ihr die Unterschiede schätzen lernen.",
+        "tips": [{
+                "text": "Welcher Typ Mensch bist du? Welcher dein Partner?",
+                "listitems": [
+                    "Redest du gerne oder hörst du lieber zu?",
+                    "Arbeitest du lieber im Team oder alleine?",
+                    "Leitest du gerne andere Menschen an oder ist dir lieber, wenn dir jemand sagt, was du tun sollst?",
+                    "Träumst du gerne große Träume oder bist du eher ein Realist?",
+                    "Siehst du das Leben immer positiv oder eher bedrohlich und sorgenvoll?",
+                    "Planst du alles korrekt oder lebst du eher in den Tag hinein?"
+                ]
+            },
+            {
+                "text": "Was ist das Besondere an deinem Partner? Was hat dich von Beginn an am meisten begeistert?"
+            }
+        ]
+    },
+    "honestyTrust": {
+        "summary": "Ehrlichkeit und Vertrauen hängen eng zusammen. Nur wenn ich weiß, dass ich nicht angelogen werde, kann ich Vertrauen aufbauen. Kompromisse im Bezug auf Ehrlichkeit und Vertrauen haben schlimme Folgen. Oft hängt meine Fähigkeit zu vertrauen und der Mut zur Ehrlichkeit mit meiner eigenen Geschichte zusammen.",
+        "tips": [{
+                "text": "Sprecht über eure Erfahrungen:",
+                "listitems": [
+                    "Wann ist es schwer zu vertrauen und warum?",
+                    "Hast du bereits erlebt, dass dein Vertrauen missbraucht wurde? Wie könnt ihr nun vorgehen?",
+                    "Wann fällt es dir schwer, ehrlich zu sein?"
+                ]
+            },
+            {
+                "text": "Erzählt einander ein Geheimnis, dass ihr noch mit niemand anderem geteilt habt."
+            }
+        ]
+    },
+    "physical": {
+        "summary": "Der Umgang mit dem Körper des anderen spiegelt die Liebe wider. Eine gesunde Beziehung ist geprägt von respektvollem Verhalten und dem Achten der gesetzten Grenzen. Es ist wichtig, klar die Erwartungen zu formulieren und einen gemeinsam Weg zu finden.",
+        "tips": [{
+                "text": "Sprecht über eure Vorstellungen zum Thema Zärtlichkeit und Sexualität.",
+                "listitems": [
+                    "Hast du negative Erfahrungen?",
+                    "Welche Bedürfnisse hast du?",
+                    "Was ist schwierig? Was ist sehr gut?"
+                ]
+            },
+            {
+                "text": "Schafft euch die Rahmenbedingungen, um eure Zärtlichkeit und Sexualität für beide so zu gestalten, dass ihr euch wohlfühlt."
+            },
+            {
+                "text": "Und respektiert die Grenzen!"
+            }
+        ]
+    },
+    "needs": {
+        "summary": "Unterschiedliche Menschen haben unterschiedliche Bedürfnisse. Manche Menschen fühlen sich nur dann geliebt, wenn sie es häufig gesagt bekommen. Andere wünschen sich hin und wieder ein kleines Geschenk als Zeichen, dass der Partner an sie gedacht hat. Wieder andere brauchen zärtliche Berührung oder einfach ein gutes Gespräch mit dem Partner.",
+        "tips": [{
+                "text": "Sprecht miteinander über das, was euch in der Beziehung zu eurem Partner am meisten gibt. Wann fühlt ihr euch wohl. Das kann unterschiedlich sein."
+            },
+            {
+                "text": "Wenn du dich entscheiden müsstest, was ist dir am wichtigsten?*",
+                "listitems": [
+                    "Ich fühle mich geliebt, wenn ich berührt werde.",
+                    "Für mich bedeutet es viel, wenn mir mein Partner hin und wieder etwas mitbringt. Es muss nicht teuer sein.",
+                    "Ich fühle mich am meisten geliebt, wenn mein Partner mir Komplimente macht und mich ermutigt.",
+                    "Ich liebe es, wenn wir Zeit zu zweit verbringen.",
+                    "Ich fühle mich geliebt, wenn mir mein Partner hilft, wenn er sieht, wo ich ihn brauche."
+                ]
+            },
+            {
+                "text": "Schaut euch die Special Tips - 5 Sprachen der Liebe an"
+            }
+        ],
+        "footnote": "*Gary Chapman: Die 5 Sprachen der Liebe"
+    }
+}

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Ergebnisse</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class ="noTest" align="center" style="margin-top: 40%" *ngIf="test==false">
+
+        <h1>Hier kannst du deine Ergebnisse einsehen sobald du den Beziehungsqualitätentest gemacht hast.</h1>
+  
+      <ion-button size="large" style="width: 70%" (click)="toTest()">Test durchführen</ion-button> 
+  
+  </div>
+
+  <!-- <div class="diagramm" *ngIf="test">
+    <ion-list *ngFor="let value of data">
+      <ion-list-header>{{ value.title }}</ion-list-header>
+    <ion-item>
+      <ion-progress-bar [(value)]="value.userValue"></ion-progress-bar>
+      <ion-progress-bar *ngIf="partner" value="value.partnerValue" color="secondary"></ion-progress-bar>
+    </ion-item>
+  </ion-list>
+    </div> -->
+
+    <div class="ion-padding">
+      <canvas #barChart></canvas>
+    </div>
+</ion-content>

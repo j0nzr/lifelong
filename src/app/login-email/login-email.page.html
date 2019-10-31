@@ -20,6 +20,8 @@
         <ion-input placeholder="Passwort" type="password" [(ngModel)]="password"></ion-input>
       </ion-item>
       <ion-item lines="none">
+        <ion-checkbox [(ngModel)]="remember"></ion-checkbox>
+        <ion-label>Angemeldet bleiben</ion-label> <br>
         <ion-button fill="clear" (click)="passwordLost()" slot="end">Passwort vergessen</ion-button>
       </ion-item>
       <ion-button expand="block" (click)="login()">Login</ion-button>

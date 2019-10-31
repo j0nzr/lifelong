@@ -4,6 +4,8 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
+import * as firebase from 'firebase';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'app-login-email',
@@ -12,11 +14,13 @@ import { AlertController } from '@ionic/angular';
 })
 export class LoginEmailPage implements OnInit {
 
-  constructor( private _location: Location, private _auth: AngularFireAuth, private _router: Router, 
-    private _afData: AngularFirestore, private _alert: AlertController) { }
+  constructor( private _location: Location, private _auth: AngularFireAuth, private _router: Router,
+    private _afData: AngularFirestore, private _alert: AlertController, private _storage: Storage) { }
+
 
   private email: string;
   private password: string;
+  private remember: boolean;
 
   ngOnInit() {
   }
@@ -26,10 +30,15 @@ export class LoginEmailPage implements OnInit {
   }
 
   async login(){
-    await this._auth.auth.signInWithEmailAndPassword(this.email, this.password).then(
+    if(this.remember){
+      this._storage.set("remember", true);
+      this._storage.set("email", this.email);
+      this._storage.set("pass", this.password);
+    }
+    return this._auth.auth.signInWithEmailAndPassword(this.email, this.password).then(
       () => {
         if(this.hasPartner(this._auth.auth.currentUser)){
-          this._router.navigateByUrl('/home');
+          this._router.navigateByUrl('/tabs/tabs/home');
         }else{
           this._router.navigateByUrl('/add-partner');
         }
@@ -45,7 +54,6 @@ export class LoginEmailPage implements OnInit {
         });
       }
     );
-    
   }
 
   passwordLost(){

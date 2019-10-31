@@ -6,6 +6,7 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AngularFireAuth } from '@angular/fire/auth';
 import { Router } from '@angular/router';
+import { Storage } from '@ionic/storage';
 
 @Component({
   selector: 'app-root',
@@ -18,18 +19,23 @@ export class AppComponent {
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     private _auth: AngularFireAuth,
-    private _router: Router
+    private _router: Router,
+    private _storage: Storage
   ) {
     this.initializeApp();
   }
 
   initializeApp() {
-    this.platform.ready().then(() => {
+    this.platform.ready().then(async () => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      if(this._storage.get("remember")){
+      return this._auth.auth.signInWithEmailAndPassword(await this._storage.get("email"), await this._storage.get("pass")).then(
+        () => {
+          this._router.navigateByUrl("/tabs/tabs/home");
+        }
+      );
+      }
     });
-    if(this._auth.auth.currentUser){
-        this._router.navigateByUrl('/home');
-    }
   }
 }

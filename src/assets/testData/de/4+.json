@@ -1,0 +1,834 @@
+{
+    "data": [
+    {
+        "text":"Mein Partner ermutigt mich häufig. Er sagt mir oft, was er an mir liebt.",
+        "tips": {
+            "text": "Ermutigung funktioniert nicht nebenbei. Zumal verschiedene Menschen Ermutigung unterschiedlich stark brauchen. Außerdem hängt Ermutigung von einigen Faktoren ab, z.B. vom eigenen Selbstbild und von den Kommunikativen Fähigkeiten, die wir haben.",
+            "listitems": [
+                "Schreibe eine Liste der Dinge, die du an deinem Partner besonders liebst. Und schenke sie deinem Partner.",
+                "Denke daran, deinen Partner jeden Tag bewusst zu ermutigen. Wenn du etwas Positives über deinen Partner denkst, sag es, sprich es aus!",
+                "Hinterlasse deinem Partner hin und wieder einen kleinen Zettel oder eine Karte mit einem Kompliment oder einer Ermutigung. Oder schreibe es mit Lippenstift auf den Badspiegel.",
+                "Sage deinem Partner täglich: Ich liebe dich!"
+
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Wir nehmen uns oft Zeit zu zweit und unterhalten uns lange.",
+        "tips": {
+            "text": "Alltagsgespräch bleiben in der Regel sehr an der Oberfläche, vor allem wenn auch noch die Kinder Aufmerksamkeit einfordern. Die Zeit zu zweit ist daher absolut wichtig. Zum einen um Dinge anzusprechen, die unklar oder schwierig sind, zum anderen um die Nähe zwischen den Partnern aufrecht zu erhalten. Stelle viele Fragen!",
+            "listitems": [
+                "Was beschäftigt dich im Moment?",
+                "Wie geht es dir mit der Arbeit/den Kindern?",
+                "Was ist im Moment deine größte Herausforderung?",
+                "Was würde dir gut tun?",
+                "Was wünschst du dir mehr?",
+                "Bist du zufrieden mit unserer Rollenaufteilung?",
+                "Wie stellst du dir die nächsten Jahre vor?",
+                "Kauft euch ein Kommunikationsspiel für Paare."
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Wir diskutieren so lange, bis einer von uns beiden überzeugt ist oder wir eine gute Kompromisslösung gefunden haben.",
+        "tips": {
+            "text": "Wie sieht eure Diskussionskultur aus? Diskussionen sind nichts Schlechtes, es ist gut, wenn die Partner ihre Meinungen austauschen und besprechen. Es zeugt von gegenseitigem Respekt, wenn Diskussionen möglich sind. Bemüht euch jedoch bei Meinungsverschiedenheiten klare Regeln zu befolgen:",
+            "listitems": [
+                "Wir hören einander aufmerksam zu und denken nicht die ganze Zeit über die eigenen Argumente nach.",
+                "Wir fragen nach, ob wir das Statement des anderen richtig verstanden haben, in dem wir es wiederholen.",
+                "Wir verzichten auf Aussagen wie „Du verstehst ja nie etwas! Du bist immer…! Bist du blöd? …“",
+                "Wir verzichten darauf, einander zu verletzen. Notfalls bitten wir um Entschuldigung.",
+                "Wir versuchen neben Meinung A und Meinung B eine dritte Lösung zu finden, mit der wir beide leben können.",
+                "Wir sollten weder schreien noch den Raum verlassen. Wenn dies doch mal passiert, wäre eine Entschuldigung angebracht."
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Wir haben immer viele Gesprächsthemen.",
+        "tips": {
+            "text": "Gesprächsthemen bewirken Abwechslung. Wenn die Themen fehlen, kann es schnell langweilig werden. Und das ist gefährlich für jede Beziehung.",
+            "listitems": [
+                "Jeder Mensch hat Themen, die ihn interessieren. Befasse dich mit den Interessen deines Partners (Glaube, Sport, Politik, Kino, Reisen, Wirtschaft, Musik, Kunst etc.) Frage nach. Lerne. Zeig deinem Partner, dass du dich für seine Themen interessierst. ",
+                "Wenn du eher ein ruhiger Mensch bist, der wenig spricht, bemühe dich, die Dinge in deinem Kopf auszusprechen, auch wenn es dir unwichtig erscheint. Dein Partner möchte sich gerne mit dir unterhalten.",
+                "Sprecht über eure Zukunft, eure Pläne, Hochzeitspläne, Wohnung/Haus, Kinder, Ehrenamtliche Arbeit, Träume, Ziele",
+                "Kauft euch ein Spiel mit Kommunikationsfragen für Paare.",
+                "Schaut unter Special Tips nach: Let’s talk together"
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Wir streiten oft unfair.",
+        "tips": {
+            "text": "Streit kommt in den meisten Beziehungen immer mal wieder vor. Das bedeutet nicht gleich eine Katastrophe, so lange der Streit unter gesunden Regeln abläuft, also fair ist. Die wichtigste Regel dabei ist, dass Versöhnung immer am Ende des Streites stehen sollte. Regeln für einen fairen Streit:",
+            "listitems": [
+                "Wir lassen einander ausreden.",
+                "Wir schreien nicht.",
+                "Wir werden nicht sarkastisch.",
+                "Wir bleiben respektvoll.",
+                "Wir verzichten auf Schimpfwörter.",
+                "Wir werden nie körperlich aggressiv.",
+                "Wir verzichten auf Verallgemeinerungen wie „Du tust ja nie …! Du machst ja immer …! Vor x Jahren hast du schon …! Du bist wie deine Mutter! …“",
+                "Setze immer die guten Absichten deines Partners voraus.",
+                "Das Ende eines Streites sollte Versöhnung sein!",
+                "Nutzt die Zeit außerhalb eines Streites, um eure Liebe zu festigen! Sagt einander jeden Tag: Ich liebe dich!"
+            ]
+        },
+        "type":"communication",
+        "isReversed":true
+    },
+    {
+        "text":"Mein Partner interessiert sich sehr für die Dinge, die mir wichtig sind.",
+        "tips": {
+            "text": "Der Partner sollte der beste Freund und die größte Vertrauensperson sein. Sich für die Dinge zu interessieren, die dem Partner wichtig sind, zeigt Liebe und tiefe Verbundenheit. Macht euch einen schönen Abend zu zweit und tauscht euch aus:",
+            "listitems": [
+                "Was sind die 3 wichtigsten Themen deines Lebens im Moment?",
+                "Bedrücken dich Dinge?",
+                "Was waren die schönsten Erlebnisse des letzten Jahres/der letzten Woche?",
+                "Was ist deine größte Herausforderung zurzeit?",
+                "Wie kann ich dir helfen, deinen Alltag besser zu bewältigen?",
+                "Wie kann ich dir helfen, deine Ziele zu erreichen?",
+                "Vertraut einander ein Geheimnis an, dass noch niemand kennt."
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner hört mir immer aufmerksam zu.",
+        "tips": {
+            "text": "Aufmerksamkeit ist ein Liebesbeweis. Wenn ich meinem Partner zuhöre, bedeutet das, die Gedanken des anderen zu hören ist mir wichtiger, als meine eigenen mitzuteilen. Versucht es:",
+            "listitems": [
+                "Nehmt euch eine Stunde Zeit. Oder auch 2.",
+                "Jeder der Partner sollte eine halbe Stunde Zeit bekommen, um all die Dinge, die ihm auf der Seele brennen, die ihn beschäftigen und die er erlebt hat, mitzuteilen. Der andere Partner hört aufmerksam zu und stellt Rückfragen. ",
+                "Danach wechseln.",
+                "Versucht dem Partner in jedem Gespräch konzentrierte Aufmerksamkeit zu schenken. Überlegt euch ein Codewort, das ihr sagt, wenn ihr keine Aufmerksamkeit geschenkt bekommt. Am besten ein Codewort, bei dem ihr beide lachen müsst!"
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Wenn wir zu zweit sind, lässt mein Partner das Handy immer aus.",
+        "tips": {
+            "text": "Das Handy stellt in unserer Zeit die größte Ablenkung dar. Wir haben oft das Gefühl, etwas zu versäumen, wenn wir nicht ständig darauf schauen. Für den Partner das Handy ganz zur Seite zu legen ist ein großer Liebesbeweis. Versucht es:",
+            "listitems": [
+                "Schaltet eure Handys aus, wenn ihr euch Zweit zu zweit nehmt. (Ausnahme, der Babysitter könnte sich melden.)",
+                "Legt die Handys nicht auf den Tisch, wenn ihr beim Abendessen oder in einem Restaurant seid. ",
+                "Beantwortet keine Anrufe oder Nachrichten, wenn ihr ein Rendez-Vous mit eurem Partner habt.",
+                "Schaut bei Fragen nicht im Internet nach, auch wenn euch die schnelle Antwort wichtig erscheint. Ist das Handy einmal an, ist die Ablenkung schon da.",
+                "Auch wenn ihr glaubt, ihr müsst immer für euren Chef oder andere erreichbar sein, schaltet es für ein paar Stunden aus. Es wird eurem Partner viel bedeuten."
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich von meinem Partner oft missverstanden.",
+        "tips": {
+            "text": "Wir glauben oft, dass uns unser Partner blind versteht, wenn er uns liebt. Doch dies ist nicht so. Wir haben nicht nur völlig verschiedene Gedankengänge im Kopf, wir unterscheiden uns auch was unsere Geschichte und unsere Persönlichkeit betrifft.",
+            "listitems": [
+                "Fragt einander immer wieder, was der andere gerade denkt.",
+                "Sprich deine Gedanken und Gefühle aus. Dein Partner kann nicht in deinen Kopf schauen!",
+                "Nehmt euch einmal die Woche Zeit, habt ein schönes Abendessen und sprecht über die Dinge, die euch gerade wichtig sind.",
+                "Wiederholt in Gesprächen die Aussage des anderen mit eigenen Worten, um sicherzustellen, dass ihr den Partner auch richtig verstanden habt.",
+                "Achtet auf euren Gesprächston, eure Körpersprache und die Mimik.",
+                "Wenn der Partner unerwartet reagiert, hat er vielleicht etwas anderes verstanden, als das, was du sagen wolltest."
+            ]
+        },
+        "type":"communication",
+        "isReversed":true
+    },
+    {
+        "text":"Ich kann mit meinem Partner auch über meine tiefsten Gefühle sprechen.",
+        "tips": {
+            "text": "Es bedarf eines großen Vertrauens, über die tiefsten Gefühle zu sprechen. Die eigenen Gefühle zu offenbaren, fällt den meisten Menschen sehr schwer. Auch nach Jahren der Partnerschaft ist dies eine Herausforderung, zumal dann, wenn es den Partner direkt betrifft. Tauscht euch aus:",
+            "listitems": [
+                "Über welche Bereiche deines Lebens fällt es dir schwer zu reden?",
+                "Was sind deine größten Ängste?",
+                "Was ist deine größte Freude?",
+                "Wobei hast du Probleme?",
+                "Gibt es Dinge, für die du dich schämst?",
+                "Was macht dich traurig?",
+                "Was bringt dich zum Lachen?",
+                "Wie geht es dir mit unserer Beziehung im Moment?"
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Nach einem Streit vergeben wir einander und versöhnen uns.",
+        "tips": {
+            "text": "Versöhnung ist absolut notwendig! In der Bibel steht: Lasst die Sonne nicht über euerem Zorn untergehen! Auch wenn es vielleicht schwerfällt: Vergebt einander nach jedem Streit. Wahre Größe hat derjenige, der um Vergebung bittet! Tauscht euch aus:",
+            "listitems": [
+                "Wie denkst du über den Satz: Lasst die Sonne nicht über eurem Zorn untergehen? Also: Wir sollten uns spätestens abends vor dem Schlafengehen versöhnen.",
+                "Fällt es dir schwer, um Vergebung zu bitten? Warum?",
+                "Wie geht es dir, wenn ich dich um Vergebung bitte? Was empfindest du dann?",
+                "Wie denkst du darüber, wenn wir streiten?",
+                "Was ist ein absolutes NoGo für dich?",
+                "Gibt es etwas, dass du mir nicht wirklich vergeben kannst?"
+            ]
+        },
+        "type":"communication",
+        "isReversed":false
+    },
+    {
+        "text":"Ich finde, wir passen perfekt zusammen.",
+        "tips": {
+            "text": "Die Persönlichkeit der Menschen ist oft sehr verschieden. Perfekt zusammen passen bedeutet nicht, dass beide Partner gleich sind. Es bedeutet, dass sich die Partner in ihrer Unterschiedlichkeit sehr gut ergänzen. Tauscht euch aus:",
+            "listitems": [
+                "Nennt jeweils die Stärken eures Partners (mind. 10)!",
+                "Wo siehst du eine Ergänzung für dich? (Dort, wo du eher eine Schwäche hast. Bsp. Ich habe nicht so ein starkes Selbstbewusstsein, mein Partner ist ein Ermutiger. Ich bin eher unorganisiert, mein Partner ein Organisator.)",
+                "Wo wünschst du dir mehr Unterstützung von deinem Partner?",
+                "Gibt es etwas in der Persönlichkeit des anderen, das sehr schwierig für dich ist? Sprecht darüber, inwieweit ihr euch gegenseitig annähern könnt."
+
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Ich liebe die Persönlichkeit meines Partner.",
+        "tips": {
+            "text": "Ein altes Sprichwort heißt: Unterschiede ziehen sich an. Das stimmt für bestimmte Unterschiede, für andere bedeutet das jedoch eher eine Herausforderung.",
+            "listitems": [
+                "Schreibt eine Liste, was ihr besonders an eurem Partner schätzt.",
+                "Tauscht euch darüber aus.",
+                "Sprecht darüber, mit welchen Eigenschaften eures Partners ihr manchmal Schwierigkeiten habt. Manches geschieht auch unterbewusst und ist möglichweise zu ändern.",
+                "Überlegt euch, welche besonderen Eigenschaften eures Partners wohl welche besondere Aufgabe haben. (Bsp. Dich stört die Ordnungsliebe deines Partners, seine Aufgabe könnte dann sein, dich zu entlasten, wenn dir das Chaos über die Ohren wächst.)",
+                "Macht einen Persönlichkeitstest (Bsp. DISG Profil), damit könnt ihr das Verständnis untereinander steigern und die Persönlichkeit eures Partners lieben lernen"
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich als Person zu 100% von meinem Partner wertgeschätzt.",
+        "tips": {
+            "text": "Die Wertschätzung der eigenen Person ist eine der Grundlagen eines erfüllten Lebens. Unabhängig von Unterschiedlichkeit und Meinungsverschiedenheiten sollten sich die Partner in einer Beziehung immer Wertschätzung vermitteln.",
+            "listitems": [
+                "Tauscht euch darüber aus, wie es mit der gegenseitigen Wertschätzung in eurer Partnerschaft aussieht. ",
+                "Wie würdet ihr euch jeweils wertgeschätzt fühlen? Was könnte euer Partner tun?",
+                "Schreibt eurem Partner einen Liebesbrief, sagt ihm, was ihr an ihm besonders wertschätzt, liebt und bewundert.",
+                "Macht eurem Partner ein Geschenk, dass seine Einzigartigkeit ausdrückt. Seid dabei kreativ. Überlegt euch, was speziell zu eurem Partner passt."
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Wir verstehen einander blind.",
+        "tips": {
+            "text": "Menschen verlieben sich normalerweise in den Partner, weil er in mancher oder vieler Hinsicht ganz anders ist als man selbst. Das macht eine Beziehung interessant! Das vielleicht größte Missverständnis in allen Beziehungen ist, dass man sich in einer Beziehung blind verstehen muss. Mann und Frau sind wie 2 Schiffe in der Nacht. Niemand kann die Gedanken und Gefühle seines Partners jederzeit erraten. Daher ist es wichtig, darüber zu sprechen.",
+            "listitems": [
+                "Überlegt euch eine Begebenheit, bei der ihr einander nicht verstanden habt. Wie könntet ihr das nächste Mal vorgehen?",
+                "Macht einen Persönlichkeitstest (z.B. DISG Profil). Dabei werdet ihr feststellen, wie unterschiedlich ihr seid, denkt und euch verhaltet. Tauscht euch darüber aus.",
+                "Sagt einander, wenn ihr euch missverstanden fühlt. ACHTUNG: Der Partner sollte das nicht als Anklage verstehen sondern als Wunsch, verstanden zu werden. Versucht euch in den Partner hineinzuversetzen."
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner hat höchsten Respekt vor mir und zeigt mir das auch.",
+        "tips": {
+            "text": "Respekt entscheidet sich daran, was beim anderen ankommt! Auch wenn du denkst, du zeigst großen Respekt, kann es sein, dass dein Partner sich nicht respektiert fühlt. Unterschiedliche Persönlichkeiten brauchen unterschiedlich Anerkennung.",
+            "listitems": [
+                "Wann empfindest du eine Aussage oder ein Verhalten als respektlos? Tauscht euch darüber aus. Gibt es hier ein grundsätzliches Problem? Wenn ja, gibt es jemanden (vielleicht in eurer Gemeinde), den ihr um ein gemeinsames Gespräch bitten könntet?",
+                "In welchem Bereich fühlst du dich von deinem Partner respektiert? ",
+                "In welchem Bereich wünschst du dir mehr Respekt. ",
+                "Nehmt euch vor, mehr respektvolles Verhalten zu zeigen und respektvolle Aussagen zu machen. Wertet eure Entwicklung einmal pro Woche aus."
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Ich frage mich oft, was mein Partner überhaupt an mir findet.",
+        "tips": {
+            "text": "Nur wenige Menschen haben ein starkes Selbstbild. Die meisten zweifeln an sich und denken gering von sich. Es sollte dir jedoch klar sein, dass niemand aus Mitleid mit dir zusammen ist. Du bist einzigartig und wunderbar gemacht, und offenbar sieht das dein Partner genauso.",
+            "listitems": [
+                "Habt ein romantisches Abendessen zu zweit und sagt einander mind. 10 Dinge, warum ihr euren Partner liebt.",
+                "Hänge Zettel an den Badspiegel oder die Zimmertür des Partners, auf denen du ihm sagst, wie wertvoll er für dich ist.",
+                "Schreibe deinem Partner eine liebevolle Postkarte oder schicke ihm einen Liebesbrief mit der Post.",
+                "Ermutigt einander jeden Tag.",
+                "Werdet euch jedoch dessen bewusst, dass der Partner nicht das Loch in eurer Seele und eurem Herzen stopfen kann. Wenn du das von deinem Partner erwartest, so überforderst du ihn total. Zu deinem Wohl und dem Wohl deines Partners wäre vielleicht hilfreich, wenn du einmal einen Seelsorger aufsuchen würdest."
+
+            ]
+        },
+        "type":"personality",
+        "isReversed":true
+    },
+    {
+        "text":"Wir ergänzen uns in vielen Lebensbereichen.",
+        "tips": {
+            "text": "Ob man sich gegenseitig ergänzt oder man sich eher als völlig verschieden sieht, ist meist eine Frage des Standpunktes. In einer Partnerschaft können wir die Eigenschafften des Partners als Gewinn sehen, als Bereicherung. Wenn z.B. der eine sehr organisiert ist und er andere eher spontan. Tauscht euch aus:",
+            "listitems": [
+                "Überlegt euch je 3 Dinge (Eigenschaften/Verhaltensweisen), in denen sich jeweils der Partner von euch unterscheidet.",
+                "Formuliere positiv: Wie ergänzt diese Eigenschaft dein eigenes Leben? ",
+                "Wie könntet ihr in Zukunft eure Unterschiedlichkeit besser wertschätzen und nutzen?"
+            ]
+        },
+        "type":"personality",
+        "isReversed":false
+    },
+    {
+        "text":"Wir nehmen uns häufig Zeit für uns beide allein.",
+        "tips": {
+            "text": "Zeit ist das wertvollste Gut unserer schnelllebigen Welt. Wenn du deinem Partner Zeit zu zweit schenkst, so zeigst du ihm, dass er dir mehr bedeutet als alles andere. Wenn Kinder zu einer Beziehung dazukommen, ist es besonders wichtig, Zeiten zu zweit einzuplanen.",
+            "listitems": [
+                "Plane einen Überraschungsausflug für euch beide. Was würde deinem Partner besondere Freude machen? Ein Wanderausflug, ein Wochenende in einem Freizeitpark, ein Kulturtrip nach Paris, eine Shoppingtour oder ein Ausflug zu einem Fußballspiel der Lieblingsmannschaft…. (Für die Kinder organisiert ihr ein Spaß-Wochenende bei Opa und Oma.)",
+                "Geht euren Terminkalender der kommenden Monate durch. Markiert die Abende, die ihr euch zu zweit reservieren möchtet. Dabei sollten beide mit der Zeitplanung zufrieden sein.",
+                "Werdet euch bewusst, dass es sein kann, dass ihr unterschiedliche Auffassung von eurer Zeitplanung und -gestaltung habt. Sprecht über eure Erwartungen."
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner und ich haben die gleiche Vorstellung darüber, wieviel Zeit wir miteinander verbringen sollten.",
+        "tips": {
+            "text": "Das Problem bei unterschiedlichen Wünschen nach Zweisamkeit ist, dass sich derjenige Partner, der gerne mehr Zeit mit dem anderen verbringen möchte, zurückgewiesen fühlt. Daher ist es wichtig, eine gute Einigung zu erzielen!",
+            "listitems": [
+                "Sprecht über eure Erwartungen. ",
+                "Worin liegt der Grund für die unterschiedliche Zeit der Zweisamkeit? Hat ein Partner zu viele andere Termine? Ist hier eine Veränderung möglich? Oder gehen einfach die Erwartungen auseinander? Wenn ja, dann schaut, wie ihr zu einer Kompromisslösung kommt.",
+                "Es ist wichtig, dass dem Partner mit dem größeren Bedürfnis nach Zweisamkeit vermittelt wird, nicht zurückgewiesen zu sein.",
+                "Macht jede Woche einen speziellen Abend zu zweit aus. Insbesondere wenn ihr Kinder habt, ist solch ein Paar- oder Eheabend lebensnotwendig."
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Unsere gemeinsame Zeit ist immer mit Aktivitäten gefüllt, die mir sehr viel Spaß machen.",
+        "tips": {
+            "text": "In einer Partnerschaft sollten sich beide Partner in der gemeinsamen Zeit wohlfühlen. Ungünstig ist:",
+            "listitems": [
+                "Wenn die gemeinsame Zeit vorwiegend mit Aktivitäten gefüllt ist, die nur einem Partner Spaß machen. Wenn das der Fall ist, dann solltet ihr euch etwas suchen, was für beide ein Gewinn wäre. Notfalls sollte dieser Partner ein Stück seiner Aktivitäten opfern, um dem anderen eine Freude zu machen.",
+                "Oder wenn die gemeinsame Zeit nahezu ohne Aktivitäten gestaltet ist und damit Langeweile dominiert. Dann solltet ihr euch konkret zusammen setzen und folgendes überlegen:",
+                "Welche Aktivitäten könnten euch beiden Spaß machen? Sammelt und macht eine Liste.",
+                "Was ist umsetzbar? Legt Termin und Ort fest, an dem ihr starten wollt.",
+                "Wenn ihr Kinder habt:",
+                "Ihr braucht beides: Habt Familienzeiten, die allen Spaß machen, UND Zeiten zu zweit, die für die Paarbeziehung wichtig sind."
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner schenkt mir ungeteilte Aufmerksamkeit, wenn wir zu zweit sind.",
+        "tips": {
+            "text": "Ungeteilte Aufmerksamkeit zählt zu den 5 Liebessprachen (Zärtlichkeit, Hilfsbereitschaft, Geschenke, Lob und Anerkennung, konzentrierte Aufmerksamkeit*). Jeder Mensch braucht alle 5 Arten der Liebeszuwendung, jedoch unterschiedlich stark.",
+            "listitems": [
+                "Legt eine Zeit in der Woche fest, in der ihr euch beide zu zweit Zeit für einander nehmt.",
+                "Gestaltet diese Zeit mit etwas Besonderem: einem schönen Abendessen, einem Ausflug, einem Spaziergang",
+                "Schaltet das Handy aus!",
+                "Sprecht über euch, nicht über andere oder die Arbeit. ",
+                "Es gibt hervorragende Fragen-Sammlungen für Paare. Oder klicke auf „Let‘s talk together“ (Special Tips)",
+                "*Gary Chapmann: Die 5 Sprachen der Liebe, Francke-Verlag"
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Wir haben gemeinsame Hobbys und Interessen.",
+        "tips": {
+            "text": "Paare sollten einige gemeinsame Hobbys und Interessen haben, um ihre Zeit sinnvoll und abwechslungsreich zu gestalten. Fehlen solche Hobbys und Interessen, so solltet ihr euch gemeinsam überlegen, was ihr zusammen beginnen könntet. Hier einige Vorschläge:",
+            "listitems": [
+                "Tanzen (besucht eine Tanzschule)",
+                "Sport (Tennis, Laufen, Bowling, Surfen etc.)",
+                "Freizeitbeschäftigungen (Tischspiele, Kunst wie Malen oder Töpfern)",
+                "Kultur (Theaterbesuche, Konzerte, Museen)",
+                "Gemeinde/Kirche (Besuch von Veranstaltungen, Mitarbeit, Aufbau einer neuen Arbeit)",
+                "Reisen (Planung und Durchführung von Kurztrips und Reisen)",
+                "Wandern, Fotografieren, Ehrenamtliches Engagement …..",
+                "Hobbys als ganze Familie braucht ihr ebenfalls, wenn ihr Kinder habt!"
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Wir sind nie allein, wenn wir zusammen sind, immer sind Freunde oder Familie meines Partners anwesend.",
+        "tips": {
+            "text": "In einer Partnerschaft entwickelt sich eine neue Kultur: Zwei Menschen aus völlig verschiedenen Lebenswegen werden eine Einheit. Diese Kultur ist die Basis für eine stabile dauerhafte Beziehung und für eine Familie. Auch wenn es für manche Menschen nicht erforderlich ist, dass sie Zeit mit ihrem Partner alleine verbringen, braucht die Partnerschaft Zeit zu zweit ohne andere Menschen.",
+            "listitems": [
+                "Sprecht ehrlich und offen über eure unterschiedlichen Erwartungen.",
+                "Gibt es einen Grund, warum einer der Partner das Alleinsein scheut? ",
+                "Plant euch konkrete Zeiten jede Woche ein, an denen ihr etwas als Paar unternehmt, ohne Freunde, Verwandte oder Kinder."
+            ]
+        },
+        "type":"time",
+        "isReversed":true
+    },
+    {
+        "text":"Mein Partner hat so einen vollen Terminplan, da passe ich kaum rein.",
+        "tips": {
+            "text": "Es gibt viele Gründe, warum man einen vollen Terminplan hat. Arbeit, Ehrenamt, Hobbys, Kinder, Familie … Ihr solltet euch als Paar jedoch darüber klar werden, wo eure Prioritäten liegen. Ihr braucht gemeinsame Zeiten zu zweit, und das ohne Handy.",
+            "listitems": [
+                "Sprecht über eure Wünsche. Einigt euch auf einen gemeinsamen Zeitrahmen. Wenn ihr Kinder habt, ist die Zeit als Paar besonders schwierig umzusetzen. Dennoch wäre 1 Abend in der Woche oder alle zwei Wochen gut.",
+                "Ist es möglich, Termine gemeinsam wahrzunehmen? Besucht z.B. einer der Partner einen Gottesdienst, so könntet ihr beide dorthin gehen. Muss einer der beiden häufig zu einer Musik- oder Theaterprobe, warum dann nicht mitgehen und zuschauen?",
+                "Klärt eure Prioritäten. Vielleicht sollte ein Hobby gestrichen werden. Oder vielleicht muss derjenige mit dem vollen Terminplan lernen, eine Terminanfrage abzulehnen, also Nein zu sagen?",
+                "Wenn ihr Kinder habt, solltet ihr euch dessen bewusst sein, dass Paare auch einen Raum zu zweit brauchen. Das dient auch euren Kindern! "
+            ]
+        },
+        "type":"time",
+        "isReversed":true
+    },
+    {
+        "text":"Es macht Spaß, unsere gemeinsame Zeit zu planen.",
+        "tips": {
+            "text": "Wenn Menschen in einer Partnerschaft zusammenkommen, vereinigen sich zwei völlig unterschiedliche Lebenswege. Darüber nachzudenken, wie der gemeinsame Lebensweg aussehen soll, zu planen, Ideen zu kreieren, die Zukunft zu träumen, lässt eine besondere Einheit entstehen. Außerdem könnt ihr so eure Werte und Prioritäten mitteilen. Überlegt euch gemeinsam:",
+            "listitems": [
+                "Was würden wir gerne in diesem Jahr gemeinsam erleben? Was wollen wir unternehmen? Welche Menschen, Orte, Städte, Konzerte, Konferenzen, Länder etc. besuchen",
+                "Was sind unsere großen Ziele in den nächsten 10 Jahren? Wo wollen wir als Paar stehen? Verheiratet sein, Kinder haben, wo wohnen, wie leben…?",
+                "Was ist uns wichtig? Welche Dinge sollten die Grundlage unserer Partnerschaft und unserer Familie sein?"
+            ]
+        },
+        "type":"time",
+        "isReversed":false
+    },
+    {
+        "text":"Ich kenne die Träume und Wünsche meines Partners.",
+        "tips": {
+            "text": "Die Träume und Wünsche des Partners zu kennen hat viel mit Kommunikation und Aufmerksamkeit zu tun. Nur wenige Menschen sprechen regelmäßig über ihre Träume und Lebensziele. Dies liegt auch daran, dass sie sich dieser Dinge häufig selbst nicht bewusst sind. Macht eine Liste – jeder für sich – mit folgenden Fragen:",
+            "listitems": [
+                "Wenn ich 3 Wünsche frei hätte, was würde ich mir wünschen?",
+                "Wenn ich überlege, wo ich in 10 Jahren sein will, wie würde das aussehen?",
+                "Was möchte ich erlebt und erreicht haben, bis ich 70 Jahre alt bin?",
+                "Tauscht euch darüber aus."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner interessiert sich sehr für meine Träume.",
+        "tips": {
+            "text": "Liebe bedeutet, dass wir die Träume unseres Partners kennen und einander ermutigen, anfeuern wie Cheerleader bei einem Football Spiel. Tauscht euch über eure persönlichen und gemeinsamen Lebensträume und Ziele aus.",
+            "listitems": [
+                "Was wollt ihr gerne erreicht haben, wenn ihr auf euer Leben schaut? Was sind die 3 wichtigsten Wünsche? Was wünscht ihr euch in 10 Jahren? Wie stellt ihr euch Familie, Beruf, Freizeit, Lebensumfeld etc. vor?",
+                "Fragt nach, wenn euer Partner über seine Träume spricht. Ermutigt ihn, zu träumen!",
+                "Schreibt euch eure gemeinsamen Träume auf und hängt sie in den Flur eurer Wohnung."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner hat in einigen Bereichen andere Werte und Überzeugungen als ich.",
+        "tips": {
+            "text": "Eine feste Grundlage gemeinsamer Werte ist notwendig für eine tragfähige Beziehung. In welchen Bereichen eures Lebens vertretet ihr gemeinsame Werte, wo unterschiedliche? Der Schlüssel zu einer Einheit liegt in der Kommunikation. Sprecht miteinander. Hier ein paar Gesprächsanregungen.",
+            "listitems": [
+                "Auf was könntest du in deinem Leben niemals verzichten?",
+                "Was würdest du tun, wenn wir große Probleme miteinander haben?",
+                "Was wären die wichtigsten Werte, die unsere Kinder einmal von uns lernen sollten? Wie sollten wir in der Erziehung vorgehen?",
+                "Welche Bedeutung hat Geld für dich? Wie sollten wir unsere Finanzen regeln, in der Partnerschaft und als Familie mit Kinder?",
+                "Wie verhalten wir uns bei Konflikten mit den Eltern?",
+                "Was denkst du über Bildung, Politik, Glaube, Sex, Arbeit?",
+                "Wie würdest du dich verhalten, wenn einer von uns beruflich umziehen oder ins Ausland gehen müsste?",
+                "Stellt fest, ob ihr grundlegende Differenzen in euren Überzeugungen habt. Wenn ja, sucht euch eine Beratung."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":true
+    },
+    {
+        "text":"Ich genieße es, mich mit meinem Partner über unsere gemeinsame Zukunft zu unterhalten und Pläne zu schmieden.",
+        "tips": {
+            "text": "Die Vorstellung einer gemeinsamen Zukunft ist für viele Menschen begeisternd. Pläne schmieden bedeutet, für beide Partner ist es klar, dass man das Leben gemeinsam verbringen will. Dabei können natürlich unterschiedliche Lebenskonzepte aufeinanderprallen.",
+            "listitems": [
+                "Wie stellt ihr euch eure gemeinsame Zukunft vor? Was wünscht ihr euch? Wie soll euer Leben in 5, 10, 30 Jahren aussehen?",
+                "Sollten eure Pläne an manchen Stellen auseinandergehen, findet heraus, warum. Über das Thema zu sprechen bewirkt gegenseitiges Verständnis und kann bereits zu Lösungen führen.",
+                "Arbeitet daran, Kompromisse zu finden.",
+                "Lasst euch vom anderen begeistern, großartige Dinge zu erwarten."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Wir teilen den gleichen Glauben.",
+        "tips": {
+            "text": "Was auch immer du glaubst, es ist das Fundament deiner Überzeugungen und Werte, d.h. dein Leben wird sich demnach ausrichten. Bist du Christ, werden die christliche Lehre und die Bibel dein Verhalten und deinen Charakter prägen. Bist du Atheist, Moslem oder Buddhist, so verhält es sich mit den jeweiligen Lehrmeinungen ebenso.",
+            "listitems": [
+                "Tauscht euch über euren Glauben und eure Überzeugungen aus.",
+                "Wie könntet ihr mit Unterschieden umgehen? Wie stellt ihr euch den Umgang mit Problemen oder die Erziehung eurer Kinder vor? ",
+                "Wer trifft im Zweifel die Entscheidungen? Findet Wege, mit denen beide gut leben können. ",
+                "Legt Regeln fest, an die ihr euch in einem Konfliktfall halten wollt. (Z.B. Auch im Streit achten wir den Glauben des anderen. In Problemen und Lebenskrisen machen wir nicht den Glauben des Partners dafür verantwortlich.)"
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Wir beten gemeinsam.",
+        "tips": {
+            "text": "Eine Gebetsgemeinschaft bedeutet eine Vertrauensgemeinschaft. Gemeinsam beten können bedeutet, dass man glaubt, es gibt etwas Größeres als uns beide, unsere Probleme und Schwierigkeiten. Das befreit die Partnerschaft von der erdrückenden Last, alles alleine schaffen zu müssen.",
+            "listitems": [
+                "Ein guter Start für gemeinsames Beten ist das Gebet beim Essen: Nehmt euch vor, gemeinsam vor dem Essen zu beten, und dabei auch für die Dinge des Tages und den Segen eures Lebens zu danken.",
+                "Wenn eine Prüfung anliegt, ein wichtiges Gespräch oder ein Arztbesuch, so betet gemeinsam für diese Sache.",
+                "Sprecht über euren Glauben.",
+                "Sucht euch ein Paar, dass euch begleiten kann."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Die Wünsche und Träume meines Partners sind hervorragend mit meinen eigenen zu vereinbaren.",
+        "tips": {
+            "text": "Wenn eure Wünsche und Träume unterschiedlich sind, so solltet ihr diese Dinge klären:",
+            "listitems": [
+                "Macht jeweils eine Liste: Welche Träume und Wünsche habe ich.",
+                "Wie sieht die Reihenfolge dieser Wünsche und Träume aus. Gibt es Dinge, die mir weniger wichtig sind als andere?",
+                "Welche Dinge auf der Liste meines Partners scheinen unvereinbar mit meinen Träumen? Gibt es einen Kompromiss? Ist es möglich, zurückzutreten zu Gunsten des Partners?",
+                "Vorsicht: Hier sollte es ausgewogen zugehen. Bemüht euch darum, dass nicht ein Partner alles aufgeben muss, nur weil dieser sich nicht durchsetzen kann. Langfristig hat das schlimme Folgen für die Partnerschaft."
+
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":false
+    },
+    {
+        "text":"Wir streiten uns häufig über Politik oder Glaubensfragen.",
+        "tips": {
+            "text": "Meinungsverschiedenheiten sind völlig in Ordnung, wenn Menschen mit unterschiedlicher Geschichte zu einer Einheit werden wollen. Sie sind ein Beweis dafür, dass jeder von euch eine eigene Persönlichkeit hat und das Vertrauen untereinander groß genug ist, seine Meinung äußern zu dürfen.",
+            "listitems": [
+                "Klärt, was eure Gemeinsamkeiten und eure Unterschiede sind.",
+                "Wertet diese Auflistung aus. Sind die Unterschiede wirklich so groß? Oder sind die Streitereien eher eine Folge von anderen Dingen?",
+                "Haltet bei euren Meinungsverschiedenheiten die Regeln der Kommunikation ein, diskutiert und versucht, einen Streit zu vermeiden:",
+                "Wir lassen einander ausreden.",
+                "Wir schreien nicht und werden nicht sarkastisch.",
+                "Wir bleiben respektvoll.",
+                "Wir verzichten auf Schimpfwörter.",
+                "Wir werden nie körperlich aggressiv.",
+                "Wir verzichten auf Verallgemeinerungen und setzen immer die guten Absichten deines Partners voraus.",
+                "Wir versöhnen uns immer wieder."
+            ]
+        },
+        "type":"valuesDreams",
+        "isReversed":true
+    },
+    {
+        "text":"Mein Partner würde mich niemals anlügen.",
+        "tips": {
+            "text": "Ehrlichkeit und Vertrauen hängen eng zusammen. Wenn Lügen in der Partnerschaft vorhanden sind, solltet ihr sie sofort aus dem Weg räumen. Keine dauerhafte Beziehung kann mit Unehrlichkeit existieren.",
+            "listitems": [
+                "Sprecht offen darüber, wo und wann ihr euch nicht sicher seid, ob der Partner ehrlich ist.",
+                "Gibt es Lügen? Sprecht alles an, was gelogen war. Bittet einander um Vergebung. Legt voreinander ein Versprechen ab, dass ihr euch nicht wieder anlügt!",
+                "Welche Ursache hat das Misstrauen? Ist es deine eigene Geschichte oder ist in eurer Beziehung etwas vorgefallen?",
+                "Gebt dem Partner immer einen Vertrauensvorschuss. Setzt voraus, dass ihr einander liebt und ehrlich seid.",
+                "Sucht euch ein Paar, dass euch begleiten kann. Ein Paar, das euch als Vorbild dient."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich von meinem Partner geliebt.",
+        "tips": {
+            "text": "Grundsätzlich sollten sich beide Partner in der Beziehung sicher und geliebt fühlen. Ob ich mich geliebt fühle oder nicht kann unterschiedliche Gründe haben. Versucht es erst einmal für euch selbst herauszufinden und dann tauscht euch darüber aus.",
+            "listitems": [
+                "Habe ich einen Grund dafür, mich nicht geliebt zu fühlen?",
+                "Habe ich schlechte Erfahrungen aus früheren Partnerschaften?",
+                "Habe ich schlechte Erfahrungen mit dieser Partnerschaft? Hat sich etwas verändert (z.B. durch Kinder)?",
+                "Gibt es einen Unterschied zwischen Wissen und Fühlen? Also weiß ich, dass ich geliebt bin, aber ich fühle mich nicht so?",
+                "Findet heraus, welche Liebessprache ihr habt: Zeit zu zweit, körperliche Zuwendung, Hilfsbereitschaft, Komplimente/Lob, Geschenke? Dann lest nach unter „5 Sprachen der Liebe“ (Gary Chapman) in Special Tips.",
+                "Wenn du ein grundsätzliches Problem hast, dass du dich nicht geliebt fühlst, dann suche einen Seelsorger oder Berater auf."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Ich kann meinem Partner absolut vertrauen.",
+        "tips": {
+            "text": "Für eine stabile Partnerschaft braucht es Vertrauen. Nur wenn man sich vertraut, hat man die Chance, auch in schwierigen Zeiten zueinander zu stehen. Fehlendes Vertrauen kann unterschiedliche Ursachen haben. Klärt diese.",
+            "listitems": [
+                "Habe ich schlechte Erfahrungen in früheren Partnerschaften gemacht? In diesem Fall braucht der Partner Geduld. Seine Vertrauenswürdigkeit wird sich erst erweisen müssen. Verletztes Vertrauen muss erst geheilt werden.",
+                "Hat mein Partner mir einen Anlass gegeben, ihm nicht zu vertrauen? In diesem Fall ist erstens Vergebung notwendig und zweitens absolute Ehrlichkeit. Das Vertrauen kann wieder aufgebaut werden, darf aber keinesfalls ein weiteren Mal verletzt werden.",
+                "Liegt mein Misstrauen an mir? Fällt es mir grundsätzlich schwer, Menschen zu vertrauen? Dann solltest du deinem Misstrauen auf den Grund gehen. Suche einen Seelsorger auf und finde heraus, was diesen Umstand hervorruft. Der Partner kann in diesen Prozess miteingebunden werden."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Es ist okay, ein paar Geheimnisse vor dem Partner zu haben.",
+        "tips": {
+            "text": "Geheimnisse vor dem Partner zu haben hat fatale Folgen. Wie können sich zwei Menschen vertrauen, wenn es bewusst Geheimnisse zwischen ihnen gibt? Geheimnisse bilden die Grundlage für Unwahrheit und Misstrauen. Tauscht euch aus:",
+            "listitems": [
+                "Wie stehst du zu dem Satz: „Kleine Geheimnisse erhalten die Partnerschaft.“ Gibt es Dinge, die man in einer Partnerschaft voreinander verbergen sollte? ",
+                "Wie würdest du dich fühlen, wenn du nach Jahren erfährst, dass dein Partner dir Manches nicht anvertraut hat?",
+                "Würdest du alles wissen wollen? Welche Bedeutung hat Transparenz/Offenheit für dich?",
+                "Wenn es Geheimnisse gibt, vielleicht ist heute der Tag, deinen Partner einzuweihen."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":true
+    },
+    {
+        "text":"Ich kann über alles mit meinem Partner sprechen.",
+        "tips": {
+            "text": "Die Offenheit in einer Partnerschaft kann nur beidseitig funktionieren. Wenn ein Partner bewusst Bereiche seines Lebens vor dem anderen verbirgt, so wird auch sein Partner kein Vertrauen haben. Offenheit macht verletzlich. Dabei gibt es 2 Grundvoraussetzungen: Will oder kann ich bestimmte Bereiche meines Lebens nicht ansprechen?",
+            "listitems": [
+                "Wenn du es nicht willst, solltest du dir bewusst sein, dass du deine Partnerschaft auf Geheimnissen aufbaust. Das ist nicht tragfähig.",
+                "Wenn du dich nicht offenbaren kannst, dann solltest du mit deinem Partner darüber sprechen, warum dies so ist.",
+                "Bereitet euch ein angenehmes Umfeld (ein schönes Abendessen zu zweit oder eine Tasse Tee auf dem Sofa). Überlegt euch, bei welchem Thema es euch schwerfällt, darüber zu reden. Versucht behutsam, einander eure Gedanken mitzuteilen. Wenn ihr dies erfolgreich geschafft habt, könnt ihr den nächsten Schritt gehen."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Ich denke, mein Partner vertraut mir.",
+        "tips": {
+            "text": "Gegenseitiges Vertrauen ist grundlegend in einer Beziehung. Wenn ein Partner den Eindruck hat, dass ihm kein Vertrauen entgegengebracht wird, solltet ihr herausfinden, woher dies kommt. Sprecht darüber:",
+            "listitems": [
+                "Warum hast du das Gefühl, dass dir nicht vertraut wird?",
+                "Ist es nur dein Eindruck, oder vertraut dir dein Partner tatsächlich nicht?",
+                "Wie wünschst du dir das Verhalten deines Partners?",
+                "Vertraust du deinem Partner?",
+                "Wenn das Vertrauen tatsächlich fehlt: Welche Ursache hat dies? Versucht dies zu klären. Notfalls zieht einen Berater oder Seelsorger hinzu."
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Ich finde es wichtig, dass man über die Vergangenheit des Partners Bescheid weiß.",
+        "tips": {
+            "text": "Deine Vergangenheit gehört zu deinem Leben. Ob positiv oder negativ, deine Vergangenheit hat dich zu der Person gemacht, die du heute bist. Insbesondere dann, wenn du Probleme, Fehler oder Verletzungen überwinden musstest. Dein Partner verdient die Wahrheit. Tauscht euch aus:",
+            "listitems": [
+                "Über welche Bereiche meiner Vergangenheit fällt es mir schwer zu sprechen? Warum?",
+                "Schäme ich mich vor meinem Partner? Warum?",
+                "Gibt es Dinge, die ich noch mit niemandem besprochen habe?",
+                "Was sind die wichtigsten Dinge, die ich in oder aus meiner Vergangenheit gelernt habe?",
+                "Wie geht es dem Partner mit dem Wissen?"
+            ]
+        },
+        "type":"honestyTrust",
+        "isReversed":false
+    },
+    {
+        "text":"Wir können über unsere Erwartungen hinsichtlich Zärtlichkeit und Sexualität offen und unbefangen reden.",
+        "tips": {
+            "text": "Den meisten Menschen fällt es schwer über Zärtlichkeit und Sexualität zu sprechen – auch innerhalb einer Partnerschaft. Allerdings sind langfristig Enttäuschungen vorprogrammiert, wenn ihr es nicht lernt. Auch wenn ihr euch vielleicht schämt: Eurem Partner geht es genauso. Doch er wird froh sein zu erfahren, was er richtig und falsch macht und was deine Erwartungen sind. Schafft eine entspannte Atmosphäre zu zweit, z.B. gemütlich auf dem Sofa bei einer Tasse Tee. Tauscht euch aus:",
+            "listitems": [
+                "Fällt es dir schwer, über Dinge wie Sexualität offen zu sprechen? Wie war das in eurer Familie? ",
+                "Lest gemeinsam in der Bibel das „Hohelied der Liebe“ von Salomo. Selbst dort werden diese Dinge angesprochen. Du „darfst“ also ebenfalls darüber sprechen.",
+                "Tastet euch langsam an dieses Thema an. Sprecht erst über Zärtlichkeit im Allgemeinen. Was findet ihr schön, was wünscht ihr euch? Wovor habt ihr Angst?"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Wir haben die gleiche Einstellung dazu, welche Rolle Sexualität in unserer Beziehung spielt.",
+        "tips": {
+            "text": "Die Rolle der Sexualität in einer Beziehung muss jedes Paar für sich definieren. Wichtig ist, dass ihr beide die gleiche Einstellung teilt. Sexualität ist ein sehr sensibles Thema. Wenn hier unterschiedliche Haltungen vertreten sind, wird einer der Partner sich unverstanden oder sogar ausgenutzt fühlen. Tauscht euch aus:",
+            "listitems": [
+                "Welche Rolle sollte die Sexualität in unserer Beziehung spielen?",
+                "Gibt es Konflikte? Seid ihr beide mit der Häufigkeit der sexuellen Begegnung zufrieden? Zu selten/zu häufig? Wie ist die Zufriedenheit mit der Art und Weise? Hast du Wünsche?",
+                "Sprecht über folgende Aussage: In der Sexualität sollten wir einander dienen. Ich möchte, dass du es genießen kannst!"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"In der Sexualität respektiert mein Partner die Grenzen, die ich ziehe.",
+        "tips": {
+            "text": "Die Grenzen, die man zieht, sind ein Produkt unserer Werte und unserer Vergangenheit. Wenn wir die körperlichen Grenzen, die ein Partner setzt, einhalten, zeigen wir ihm Respekt und Liebe, und dass er uns wichtiger ist als unsere eigenen Bedürfnisse. Tauscht euch aus:",
+            "listitems": [
+                "Kennt ihr die Grenzen des anderen? Teilt eurem Partner eure Grenzen mit. Sprecht über eure Erwartungen!",
+                "Habe ich manchmal das Gefühl, dass meine Grenzen nicht respektiert werden? Warum?",
+                "Fällt es manchmal schwer, die Grenzen des anderen zu respektieren? Warum?"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Probleme mit Zärtlichkeit oder Sexualität können wir lösen.",
+        "tips": {
+            "text": "In nahezu allen Partnerschaften kommen hin und wieder Fragen oder Probleme hinsichtlich Zärtlichkeit und Sexualität auf. Vor allem in den ersten Jahren, da völlig verschiedene Prägungen und Erwartungen aufeinandertreffen. Kaum ein Thema ist mit so vielen falschen Vorstellungen besetzt. Bei einem Gespräch über Zärtlichkeit und Sexualität solltet ihr sehr behutsam vorgehen. Dieses Thema macht beide Seiten sehr verletzlich! Habt Geduld mit eurem Partner.",
+            "listitems": [
+                "Sprecht zuerst darüber, wie es euch mit diesem Thema geht. (Schamgefühl, Angst, Verletzlichkeit, Selbstoffenbarung)",
+                "Gibt es momentan eine Frage oder ein Problem hinsichtlich Zärtlichkeit oder Sexualität, das ihr besprechen sollten?",
+                "Welche Vorstellungen prägen dein Denken? Welche Wünsche und Erwartungen hast du?"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Treue ist für mich sehr wichtig.",
+        "tips": {
+            "text": "Treue ist ein Beweis von Liebe. Treue bedeutet, für den einen Menschen auf die Chancen bei anderen zu verzichten. Treue kann jedoch sehr unterschiedlich definiert sein. Sprecht darüber und findet eine gemeinsame Haltung.",
+            "listitems": [
+                "Was bedeutet für dich Treue?",
+                "Ist flirten mit anderen okay? Wie geht es dir dabei?",
+                "Wie wollt ihr es künftig ansprechen, wenn einer der Partner ein Problem hat?",
+                "Gibt es bereits Dinge, die geklärt werden müssen? Sprecht alles offen an. Lieber eine schwierige Situation offen und klar besprechen als später eine böse Überraschung erfahren. Sucht euch notfalls Hilfe bei einem Paar, dem ihr beide vertraut.",
+                "Bittet einander um Vergebung und vergebt einander."
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Zärtlichkeit muss nicht gleich Sexualität bedeuten.",
+        "tips": {
+            "text": "Es gibt unterschiedliche Bedürfnisse: Manche möchten gerne zärtlich sein, jedoch nicht gleich Sex haben. Außerdem gibt es meist eine unterschiedliche Erwartungshaltung zwischen Mann und Frau. Es ist absolut notwendig, diese verschiedenen Erwartungen zu klären. Tauscht euch aus:",
+            "listitems": [
+                "Welche Art von Zärtlichkeit liebst du besonders?",
+                "Was ist dir wichtiger: Zärtlichkeit oder Sexualität?",
+                "Häufig mündet zärtliche Berührung in Sexualität. Bist du mit dem Verlauf von Zärtlichkeit in unserer Beziehung zufrieden?"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich geliebt, weil mein Partner nur Augen für mich hat.",
+        "tips": {
+            "text": "Im Laufe einer Beziehung kann die gegenseitige Anziehungskraft und Attraktivität schwanken. Flirts und Affären sollten jedoch nie eine Option sein. Jeder der Partner sollte sich daher folgende Fragen stellen:",
+            "listitems": [
+                "Gebe ich mir persönlich Mühe, attraktiv für meinen Partner zu bleiben?",
+                "Habe ich mich dafür entschieden, nur Augen für meinen Partner zu haben, egal wie groß die Versuchung ist?",
+                "Tauscht euch aus:",
+                "Fühle ich mich von meinem Partner wahrgenommen? ",
+                "Störe ich mich am Verhalten meines Partners in der Öffentlichkeit?",
+                "Nehme ich den Partner ernst, wenn ihm etwas nicht an mir oder meinem Verhalten zum anderen Geschlecht gefällt. Was dem Partner auffällt, fällt meistens auch anderen auf!",
+                "Schreibe deinem Partner eine Notiz, warum du ihn oder sie so liebst und was du an deinem Partner besonders toll findest. Mache das regelmäßig!"
+            ]
+        },
+        "type":"physical",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich absolut geliebt von meinem Partner.",
+        "tips": {
+            "text": "Jeder Mensch hat eine spezielle Art, wie er geliebt werden möchte. Findet heraus, was euch beiden besonders wichtig ist. Auch wenn dir diese Form der Liebeszuwendung vielleicht nicht so wichtig ist, schenke deinem Partner genau das, wodurch er sich geliebt fühlt. Tauscht euch aus:",
+            "listitems": [
+                "Möchtest du gerne am Abend beim Fernsehen auf dem Sofa gestreichelt werden oder ist es dir wichtiger, wenn dir dein Partner bei deinen Aufgaben hilft? Fühlst du dich besonders geliebt durch ein kleines Geschenk oder wenn dein Partner mit dir Zeit verbringt? Oder hättest du gerne mehr Lob und Anerkennung von deinem Partner?*",
+                "Was freut deinen Partner besonders? Überlege dir, wie du ihn überraschen kannst.",
+                "Achte darauf, dass dein Partner die Zuwendung bekommt, die er braucht.",
+                "*Nach Gary Chapman: Die 5 Sprachen der Liebe"
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner macht mir oft Geschenke.",
+        "tips": {
+            "text": "Wenn du deinem Partner ein Geschenk machst, bedeutet das, dass du in der Zeit der Abwesenheit an deinen Partner gedacht hast. Das kann eine gepflügte Blume vom Wegesrand sein, eine kleine Schokolade, die du beim Tanken in der Tankstelle gekauft hast oder ein anderes Geschenk. Dabei kommt es nicht auf den Preis des Geschenkes an. Jedoch darauf, ob du dir Gedanken gemacht hast. Schenke keine Blumen, wenn deine Partnerin keine Blumen mag!",
+            "listitems": [
+                "Tauscht euch aus: Freust du dich über Geschenke? Was bedeuten dir Geschenke?",
+                "Überlege dir, welche Aufmerksamkeit, welches Geschenk deinem Partner Freude bereiten würde. ",
+                "Überrasche deine Partner immer wieder."
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner ist sehr hilfsbereit, er hilft mir oft.",
+        "tips": {
+            "text": "Wenn du deinem Partner hilfst, zeigst du, dass du gerne für ihn etwas tust. Sei jedoch vorsichtig, wenn dein Partner die Hilfe als Botschaft versteht, dass er es nicht allein schaffen würde. Frage nach und biete Hilfe an. Dies ist nicht zu verwechseln mit der Arbeitsteilung, die ihr bereits vereinbart habt.",
+            "listitems": [
+                "Wie ist die Arbeit bei euch aufgeteilt? Seid ihr mit dieser Aufteilung beide glücklich?",
+                "In welchen Bereichen würdest du dich über die Hilfe deines Partners freuen?",
+                "Was vermittelt dir die Hilfsbereitschaft deines Partners? Was bedeutet es für dich, wenn dir dein Partner hilft?",
+                "Bist du manchmal enttäuscht, weil du dich mit deiner Arbeit alleingelassen fühlst?"
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Ich fühle mich total geborgen in meiner Beziehung.",
+        "tips": {
+            "text": "Geborgenheit ist ein Ausdruck von Liebe und Sicherheit. Fühle ich mich geborgen in meiner Partnerschaft, so kann ich ganz ich selbst sein, mit all meinen Bedürfnissen, meinen Stärken und Schwächen. Tauscht euch aus:",
+            "listitems": [
+                "Fühlst du dich geborgen in deiner Beziehung?",
+                "Wann fühlst du dich nicht geborgen?",
+                "Woran erkennst du das?",
+                "Was könnte dein Partner tun, damit du diese Geborgenheit empfindest?"
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner sagt mir oft, dass er mich liebt.",
+        "tips": {
+            "text": "Manchen Menschen fällt es sehr schwer, ihre Gefühle in Worte zu packen. Andere denken, dass es doch klar ist, dass man sich liebt, das muss doch nicht extra gesagt werden. Beides kann eine große Unsicherheit beim Partner auslösen. Denn es ist faktisch falsch, dass man immer weiß, ob und wie sehr man geliebt ist.",
+            "listitems": [
+                "Wenn es dir schwerfällt, deine Liebe in Worten auszusprechen, dann schreibe einen Brief an deinen Partner. Formuliere deine Gefühle und was dein Partner dir bedeutet. Schreibe darin, für was du dankbar bist und wie sich dein Leben durch deinen Partner verändert hat.",
+                "Sage deinem Partner jeden Tag „Ich liebe dich“.",
+                "Formuliere regelmäßig ein Kompliment: „Du hast wunderschöne Augen“, „Du bist einfach genial“. Sag deinem Partner, was du besonders an ihm schätzt „Du bist immer so kreativ“.",
+                "Hinterlasse immer wieder kleine Notizen mit einer Liebesbekundung"
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner und ich verbringen oft Zeit zu zweit.",
+        "tips": {
+            "text": "Der Wunsch nach gemeinsamer Zeit zu zweit ist oft unterschiedlich bei Paaren. Hat ein Partner ein größeres Bedürfnis nach Zweisamkeit als der andere, geht dies meist mit Enttäuschung und/oder Verletzung einher. Unbewusst wird dem ersteren vermittelt, dass er es nicht wert ist, dass man mit ihm mehr Zeit verbringt. Gleichzeitig kann sich der andere Partner eingeengt und bedrängt fühlen. Tauscht euch aus:",
+            "listitems": [
+                "Wieviel Zeit würdest du gerne mit deinem Partner verbringen?",
+                "Wie viel Zeit würdest du gerne alleine mit deinem Partner verbringen.",
+                "Findet eine gute Lösung für beide Partner.",
+                "Macht einen Zeitplan. Wie könntet ihr eure gemeinsame Zeit gestalten?",
+                "Wenn ihr Kinder habt: Wie können wir uns Zeiten rausschneiden als Paar? Tragt Termine langfristig in einen Kalender ein. Z.B. regelmäßig einen Abend oder hin und wieder ein Wochenende."
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner gibt mir das Gefühl, etwas ganz Besonderes zu sein.",
+        "tips": {
+            "text": "Der Partner ist der wichtigste Mensch auf Erden. Man hat Freunde und Familie, aber nur einen Partner. Manchmal kommt bei diesem jedoch nicht an, was er dir bedeutet. Was allerdings auch eine Frage des eigenen Selbstbildes sein kann. Tauscht euch darüber aus:",
+            "listitems": [
+                "Auf einer Skala von 1 (schlecht) bis 10 (super): Wie würdest du dein eigenes Selbstbild einstufen?",
+                "Bist du dir dessen bewusst, dass du einzigartig bist?",
+                "Wann fühlst du dich, als wärst du etwas ganz Besonderes? ",
+                "Was kann dein Partner dazu beitragen?",
+                "Mache deinem Partner eine Liste mit den 10 Dingen, die ihn für dich zu etwas ganz Besonderem machen."
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    },
+    {
+        "text":"Mein Partner fragt mich oft nach meinen Bedürfnissen und Wünschen.",
+        "tips": {
+            "text": "Grundsätzlich kann niemand in die Gedanken eines anderen hineinschauen. Selbst nach vielen Ehejahren verbessert sich das nur teilweise. Um zu wissen, was dein Partner denkt und fühlt und was seine Wünsche und Bedürfnisse sind, solltest du ihn fragen. Zum anderen solltet ihr euch angewöhnen, offen eure Bedürfnisse und Wünsche zu äußern. Tauscht euch aus:",
+            "listitems": [
+                "Was denkst du gerade?",
+                "Wie geht es dir zur Zeit? Wie war dein Tag, deine Woche?",
+                "Was brauchst du im Moment? Was wünschst du dir?",
+                "Was könntet ihr tun, um gemeinsam zu entspannen und den Tag zu genießen?"
+            ]
+        },
+        "type":"needs",
+        "isReversed":false
+    }
+]
+}

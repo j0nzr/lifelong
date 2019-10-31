@@ -17,18 +17,26 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AndroidFullScreen } from '@ionic-native/android-full-screen/ngx';
 import { AngularFireDatabase } from '@angular/fire/database';
 import { AngularFireStorageModule } from '@angular/fire/storage';
+import { NgxQRCodeModule } from 'ngx-qrcode2';
+import { ImagePicker } from '@ionic-native/image-picker/ngx';
+import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { HttpModule } from '@angular/http';
+import { IonicStorageModule } from '@ionic/storage';
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [
-    BrowserModule, 
+    BrowserModule,
     BrowserAnimationsModule,
-    IonicModule.forRoot(), 
+    IonicModule.forRoot(),
     AppRoutingModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
     AngularFireStorageModule,
+    HttpModule,
+    IonicModule.forRoot(),
+    IonicStorageModule.forRoot(),
     NgxAuthFirebaseUIModule.forRoot(
       firebaseConfig,
       () => 'lifelong',
@@ -38,13 +46,17 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
                   toastMessageOnAuthError: true, // whether to open/show a snackbar message on auth error - default : true
                   authGuardFallbackURL: '/login-register-ov', // url for unauthenticated users - to use in combination with canActivate feature on a route
                   authGuardLoggedInURL: '/home' // url for authenticated users - to use in combination with canActivate feature on a route
-      })],
+      }),
+    NgxQRCodeModule
+    ],
   providers: [
     StatusBar,
     SplashScreen,
     AndroidFullScreen,
     AngularFireDatabase,
     BarcodeScanner,
+    ImagePicker,
+    Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
