@@ -62,7 +62,10 @@ export class ResultsService {
     }
   }
 
-  constructor(public _auth: AngularFireAuth, public _store: AngularFirestore, public pBarChart) { 
+  constructor(public _auth: AngularFireAuth, public _store: AngularFirestore) { 
+  }
+
+  public setChart(pBarChart){
     this.barChart = pBarChart;
   }
 
@@ -99,12 +102,15 @@ export class ResultsService {
     this.barChart = new Chart(this.barChart.nativeElement, {
       type: "bar",
       data: {
-        labels: ["Kommunikation", "Ehrlichkeit und Vertrauen", "Bedürfnisse", "Persönlichkeit", "Physisches", "Zeit", "Werte und Träume"],
+        labels: ["", "", "", "", "", "", ""],
         datasets: barData
       },
       options: {
         responsive: true,
         maintainAspectRatio: false,
+        legend: {
+          display: false
+        },
         scales: {
             xAxes: [{
                 gridLines: {

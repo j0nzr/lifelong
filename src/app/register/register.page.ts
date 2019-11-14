@@ -5,8 +5,8 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireStorage } from '@angular/fire/storage';
 import { AlertController, ToastController, ModalController } from '@ionic/angular';
-import { ImagePicker } from '@ionic-native/image-picker/ngx';
-import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+import { ImagePicker, ImagePickerOptions } from '@ionic-native/image-picker';
+//import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { storage } from 'firebase';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs/observable';
@@ -35,7 +35,10 @@ export class RegisterPage implements OnInit {
 
   constructor(public nav: Router, private _location: Location, private afAuth: AngularFireAuth,
     private afData: AngularFirestore, private _storage: AngularFireStorage, private toastCtrl:
-    ToastController, private imagePicker: ImagePicker, private camera: Camera, private modalController:
+    ToastController, 
+    //private imagePicker: ImagePicker,
+    //private camera: Camera,
+    private modalController:
     ModalController, private dataService: DataService, private alertCtrl: AlertController) {
       //this.files = this.dataService.getFiles();
     }
@@ -142,21 +145,29 @@ export class RegisterPage implements OnInit {
       await toast.present();
     });
 
-  }
+  } */
 
-  async takePhoto(){
-    const options: CameraOptions = {
-      quality: 50,
-      targetWidth: 600,
-      targetHeight: 600,
-      destinationType: this.camera.DestinationType.FILE_URI,
-      encodingType: this.camera.EncodingType.JPEG,
-      mediaType: this.camera.MediaType.PICTURE,
+ /* async takePhoto(){
+    const options: ImagePickerOptions = {
+      maximumImagesCount: 1,
+      width: 800,
+      height: 800,
     }
 
-    const result = await this.camera.getPicture(options);
+    /*const result = await this.camera.getPicture(options);
     const image = `data:image/jpeg;base64,${result}`
     const pictures = this._storage.ref('profilePicture');
-    pictures.putString(image, 'data_url');
+    pictures.putString(image, 'data_url'); * /
+
+    if(! this.imagePicker.hasReadPermission()){
+      this.imagePicker.requestReadPermission();
+    }
+
+    this.imagePicker.getPictures(options).then((results) => {
+      for (var i = 0; i < results.length; i++) {
+          document.getElementById('uploadImage').setAttribute("src", results[i]);
+      }
+    }, (err) => { });
+
   } */
 }

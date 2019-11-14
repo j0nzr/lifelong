@@ -26,4 +26,12 @@
     <div class="ion-padding">
       <canvas #barChart style="height: 50vh"></canvas>
     </div>
+    <ion-list *ngFor="let el of list">
+      <ion-item>
+        <ion-icon [(name)]="el[3]" style="margin-right: 3%"></ion-icon>
+        <ion-label>{{ el[0] }}</ion-label>
+        <ion-label><b><font color="#e62b60">{{ el[1] | number:'1.0-0' }}</font>/<font color="#4295f5">{{ el[2] | number:'1.0-0' }}</font></b></ion-label>
+        <ion-button fill="clear"><ion-icon name="arrow-dropright"></ion-icon></ion-button>
+      </ion-item>
+    </ion-list>
 </ion-content>

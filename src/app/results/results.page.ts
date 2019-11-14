@@ -42,6 +42,9 @@ export class ResultsPage implements OnInit {
   partner: boolean;
   uservals: number[];
   partnervals: number[];
+  categorys: string[] = ["Kommunikation", "Ehrlichkeit und Vertrauen", "Bedürfnisse", "Persönlichkeit", "Physisches", "Zeit", "Werte und Träume"];
+  icons : string[] = ["megaphone", "key", "gift", "finger-print", "fitness", "time", "cloud"];
+  list = [["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""]];
 
   maxvalues: object = {
     "0-3": {
@@ -69,7 +72,6 @@ export class ResultsPage implements OnInit {
    }
 
   ngOnInit(){
-
   }
 
   async createChart(partnerData: boolean){
@@ -105,7 +107,7 @@ export class ResultsPage implements OnInit {
     this.barChart = new Chart(this.barChart.nativeElement, {
       type: "bar",
       data: {
-        labels: ["Kommunikation", "Ehrlichkeit und Vertrauen", "Bedürfnisse", "Persönlichkeit", "Physisches", "Zeit", "Werte und Träume"],
+        labels: this.categorys,
         datasets: barData
       },
       options: {
@@ -135,7 +137,7 @@ export class ResultsPage implements OnInit {
   async start(){
     await this.testDone(this._auth.auth.currentUser);
     await this.hasPartner(this._auth.auth.currentUser);
-    await this.getChartData();    
+    await this.getChartData(); 
   }
 
   async ionViewDidEnter(){
@@ -156,12 +158,12 @@ export class ResultsPage implements OnInit {
       this.physical = await result.data().physical;
       this.time = await result.data().time;
       this.valueDreams = await result.data().valueDreams;
-      console.log(this.communication);
-      console.log(typeof(this.communication));
+      /*console.log(this.communication);
+      console.log(typeof(this.communication)); */
       if(this.partner){
         await this.getPartnerData(this.partneruid);
       }else{
-        await this.setMaxData();
+        await this.setMaxData(); 
       }
     });
     
@@ -177,7 +179,7 @@ export class ResultsPage implements OnInit {
       this.pphysical = await data.physical;
       this.ptime = await data.time;
       this.pvalueDreams = await data.valueDreams;
-      await this.setMaxData();
+      await this.setMaxData(); 
     });
   }
 
@@ -232,6 +234,7 @@ export class ResultsPage implements OnInit {
       ]
     this.uservals = uvs;
     console.log(this.uservals);
+    this.createListObject(); 
     this.createChart(partnerData);
   }
 
@@ -246,7 +249,7 @@ export class ResultsPage implements OnInit {
       this.personalityMax = this.maxvalues[relLength].personality;
       this.physicalMax = this.maxvalues[relLength].physical;
       this.timeMax = this.maxvalues[relLength].time;
-      this.valueDreamsMax = this.maxvalues[relLength].valueDreams;
+      this.valueDreamsMax = this.maxvalues[relLength].valueDreams;  
       this.createObject();
     });
   }
@@ -274,6 +277,20 @@ export class ResultsPage implements OnInit {
         this.test = test;
       }
     );
+  }
+
+  async createListObject(){
+    let pArr = [];
+    console.log(this.uservals);
+
+    for(let el in this.categorys){
+      this.list[el] = [
+        this.categorys[el],
+        this.uservals[el],
+        this.partnervals[el],
+        this.icons[el]
+      ];
+    }
   }
 
 }

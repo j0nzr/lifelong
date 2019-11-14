@@ -8,6 +8,10 @@
 
 <ion-content>
 
+  <div style="background-color: primary">
+
+  </div>
+
   <ion-item *ngIf="test==false" lines="none">
   <ion-card>
     <ion-card-content button="true">
@@ -28,23 +32,34 @@
 
   <ion-item lines="none">
     <ion-card>
+        <ion-card-header>
+          <ion-card-title>Eure Auswertung</ion-card-title>
+            <div style="height: 10%; position: absolute; right: 5%; top: 15%">
+                <ion-button (click)="toResults()" fill="clear"><ion-icon name="arrow-forward"></ion-icon></ion-button>
+              </div>
+        </ion-card-header>
+      <div class="ion-padding">
+        <canvas #barChart></canvas>
+      </div>
+   </ion-card>
+  </ion-item> 
+
+  <ion-item lines="none">
+    <ion-card>
       <ion-card-header>
         <ion-card-title>Tipp des Tages</ion-card-title>
       </ion-card-header>
       <ion-card-content button="true">
         Hier kommt der Tipp des Tages rein. <br>
+        <div align="right" style="height: 10%">
         <ion-button (click)="shareTipp()" fill="clear" slot="icon-only"><ion-icon name="share"></ion-icon></ion-button>
+        </div>
       </ion-card-content>
     </ion-card>
   </ion-item>
 
-  <ion-item lines="none">
-    <ion-card>
-      <canvas #barChart></canvas>
-    </ion-card>
-  </ion-item>
 
-  <ion-item lines="none">
+  <ion-item lines="none" *ngIf="test">
     <ion-card>
       <ion-card-content>
        <ion-item>
@@ -57,6 +72,6 @@
       </ion-item> 
       </ion-card-content>
     </ion-card>
-  </ion-item>
+  </ion-item> 
 
 </ion-content>

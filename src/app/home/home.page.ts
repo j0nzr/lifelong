@@ -4,6 +4,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { Chart } from 'chart.js';
 import { ResultsService } from '../results.service';
+import { Observable } from 'rxjs'; 
 
 @Component({
   selector: 'app-home',
@@ -11,19 +12,21 @@ import { ResultsService } from '../results.service';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  @ViewChild('barChart', {static: false}) barChart;
+  @ViewChild('barChart', {static: false}) public barChart;
   
   uid: string = this._afAuth.auth.currentUser.uid;
   partneruid: any;
   communication: number;
+  //communication$ = Observable.of(this.communication);
   honestyTrust: number;
   needs: number;
   personality: number;
   physical: number;
   time: number;
   valueDreams: number;
-  best: any[]
-  worst: any[];
+  best: any[] = ["", 0];
+  worst: any[] = ["", 0];
+  results: ResultsService;
 
   constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth) {
     this.hasPartner(this._afAuth.auth.currentUser);
@@ -39,10 +42,10 @@ export class HomePage {
       this.needs = await data.needs;
       await this.setBestAndWorst();
       //this._router.navigateByUrl('/test');
-
-      let results = new ResultsService(_afAuth, _afData, this.barChart);
-      results.start();
+      //console.log(this.barChart);
     });
+    this.results = new ResultsService(this._afAuth, this._afData);
+    console.log("done");
   }
 
   ionViewDidLoad(){
@@ -50,6 +53,14 @@ export class HomePage {
     this.testDone(this._afAuth.auth.currentUser);
   }
 
+  ngAfterViewInit(){
+    this.results.setChart(this.barChart);
+    this.results.start();
+  }
+
+  ngOnInit(){
+ 
+  }
   
 
   public test: any;
@@ -70,6 +81,10 @@ export class HomePage {
 
   toTest(){
     this._router.navigateByUrl('/test');
+  }
+
+  toResults(){
+    this._router.navigateByUrl('/tabs/tabs/results');
   }
 
   hasPartner(user){
@@ -120,6 +135,8 @@ export class HomePage {
 
     this.best = bestValue;
     this.worst = worstValue;
+   
+    return [bestValue, worstValue];
     
   }
 
