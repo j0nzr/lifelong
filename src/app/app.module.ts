@@ -18,8 +18,8 @@ import { AndroidFullScreen } from '@ionic-native/android-full-screen/ngx';
 import { AngularFireDatabase } from '@angular/fire/database';
 import { AngularFireStorageModule } from '@angular/fire/storage';
 import { NgxQRCodeModule } from 'ngx-qrcode2';
-import { ImagePicker } from '@ionic-native/image-picker';
-import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
+//import { ImagePicker } from '@ionic-native/image-picker';
+//import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { HttpModule } from '@angular/http';
 import { IonicStorageModule } from '@ionic/storage';
 
@@ -55,8 +55,8 @@ import { IonicStorageModule } from '@ionic/storage';
     AndroidFullScreen,
     AngularFireDatabase,
     BarcodeScanner,
-    ImagePicker,
-    Camera,
+    //ImagePicker,
+    //Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]
