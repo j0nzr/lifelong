@@ -29,7 +29,7 @@ export class AppComponent {
     this.platform.ready().then(async () => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
-      if(this._storage.get("remember")){
+      if(await this._storage.get("remember") == true){
       return this._auth.auth.signInWithEmailAndPassword(await this._storage.get("email"), await this._storage.get("pass")).then(
         () => {
           this._router.navigateByUrl("/tabs/tabs/home");
