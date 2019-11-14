@@ -22,6 +22,8 @@ import { NgxQRCodeModule } from 'ngx-qrcode2';
 //import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 import { HttpModule } from '@angular/http';
 import { IonicStorageModule } from '@ionic/storage';
+import { SocialSharing } from '@ionic-native/social-sharing/ngx';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -55,6 +57,7 @@ import { IonicStorageModule } from '@ionic/storage';
     AndroidFullScreen,
     AngularFireDatabase,
     BarcodeScanner,
+    SocialSharing,
     //ImagePicker,
     //Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
