@@ -17,7 +17,8 @@ const routes: Routes = [
     children:[
         { path: 'home', loadChildren: '../home/home.module#HomePageModule' },
         { path: 'settings', loadChildren: '../settings/settings.module#SettingsPageModule' },
-        { path: 'results', loadChildren: '../results/results.module#ResultsPageModule'}
+        { path: 'results', loadChildren: '../results/results.module#ResultsPageModule'},
+        { path: 'special-tipps', loadChildren: '../special-tipps/special-tipps.module#SpecialTippsPageModule' }
     ] 
     /*path: 'tabs',
     component: TabsPage,

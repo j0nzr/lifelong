@@ -11,6 +11,7 @@ import { storage } from 'firebase';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs/observable';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { ElementRef } from '@angular/core';
 
 
 declare var require;
@@ -21,7 +22,10 @@ const normalizeURL = require('normalize-url');
   templateUrl: './register.page.html',
   styleUrls: ['./register.page.scss'],
 })
+
+
 export class RegisterPage implements OnInit {
+
 
   public prename: string;
   public name: string;
@@ -31,6 +35,7 @@ export class RegisterPage implements OnInit {
   public birth: string;
   public profilePic: any;
   public genderIcon: string = "female";
+  public jahrestag: string;
   public files: Observable<any[]>;
 
   constructor(public nav: Router, private _location: Location, private afAuth: AngularFireAuth,
@@ -68,6 +73,21 @@ export class RegisterPage implements OnInit {
       if (!this.profilePic){
         this.profilePic = "";
       }
+      if(this.jahrestag){
+      var userData = this.afData.collection('user').doc(userId).set({
+        email: this.email,
+        gender: this.gender,
+        name: this.name,
+        prename: this.prename,
+        birth: this.birth,
+        profilePic: this.profilePic,
+        jahrestag: this.jahrestag,
+        test: false,
+        partner: false
+      }).then(function() {
+        nav.navigateByUrl('/add-partner');
+      });
+    }else{
       var userData = this.afData.collection('user').doc(userId).set({
         email: this.email,
         gender: this.gender,
@@ -80,6 +100,8 @@ export class RegisterPage implements OnInit {
       }).then(function() {
         nav.navigateByUrl('/add-partner');
       });
+    }
+
   }
 
     /*upload(event) {
@@ -170,4 +192,5 @@ export class RegisterPage implements OnInit {
     }, (err) => { });
 
   } */
+
 }

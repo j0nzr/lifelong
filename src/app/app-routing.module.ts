@@ -13,6 +13,10 @@ const routes: Routes = [
   //{ path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'test', loadChildren: './test/test.module#TestPageModule' },
+  { path: 'extended-category', loadChildren: './extended-category/extended-category.module#ExtendedCategoryPageModule' },
+  { path: 'questions', loadChildren: './questions/questions.module#QuestionsPageModule' },
+  { path: 'datenschutz', loadChildren: './datenschutz/datenschutz.module#DatenschutzPageModule' },
+  { path: 'special-tipp-text', loadChildren: './special-tipp-text/special-tipp-text.module#SpecialTippTextPageModule' },
 ];
 
 function redirect(_afAuth: AngularFireAuth): string{

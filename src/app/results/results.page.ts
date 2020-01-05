@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
+import { NavController } from '@ionic/angular';
 import { AngularFirestore } from '@angular/fire/firestore';
 import { AngularFireAuth } from '@angular/fire/auth';
 import { Chart } from 'chart.js';
@@ -40,21 +41,21 @@ export class ResultsPage implements OnInit {
   partneruid: string;
   test: boolean;
   partner: boolean;
-  uservals: number[];
+  uservals: any[];
   partnervals: number[];
-  categorys: string[] = ["Kommunikation", "Ehrlichkeit und Vertrauen", "Bedürfnisse", "Persönlichkeit", "Physisches", "Zeit", "Werte und Träume"];
+  categorys: string[] = ["Kommunikation", "Ehrlichkeit und Vertrauen", "Bedürfnisse", "Persönlichkeit", "Zärtlichkeit", "Zeit", "Werte und Träume"];
   icons : string[] = ["megaphone", "key", "gift", "finger-print", "fitness", "time", "cloud"];
-  list = [["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""], ["",0,0,""]];
-
+  list = [["",0,0,"",false, false], ["",0,0,"",false, false], ["",0,0,"",false, false], ["",0,0,"",false, false], ["",0,0,"",false, false], ["",0,0,"",false, false], ["",0,0,"",false, false]];
+        //[name, userVal, partnerVal, icon, best, worst]
   maxvalues: object = {
     "0-3": {
-      communication: 60,
-      honestyTrust: 45,
-      needs: 45,
+      communication: 55,
+      honestyTrust: 35,
+      needs: 40,
       personality: 40,
       physical: 35,
       time: 40,
-      valueDreams: 50
+      valueDreams: 40
     },
     "4+": {
       communication: 55,
@@ -67,7 +68,8 @@ export class ResultsPage implements OnInit {
     }
   }
 
-  constructor(public _nav: Router, public _store: AngularFirestore, public _auth: AngularFireAuth) {
+  constructor(public _nav: Router, public _store: AngularFirestore, public _auth: AngularFireAuth,
+    public navCtrl: NavController) {
     this.start();
    }
 
@@ -82,13 +84,13 @@ export class ResultsPage implements OnInit {
       barData = [
         {
           label: "Du",
-          backgroundColor: "rgb(230, 43, 96)",
+          backgroundColor: "rgb(219, 57, 103)",
           barThickness: "flex",
           data: this.uservals
         },
         {
           label: "Dein Partner",
-          backgroundColor: "rgb(66, 149, 245)",
+          backgroundColor: "rgb(38, 130, 237)",
           barThickness: "flex",
           data: this.partnervals
         }
@@ -97,7 +99,7 @@ export class ResultsPage implements OnInit {
       barData = [
         {
           label: "Du",
-          backgroundColor: "rgb(230, 43, 96)",
+          backgroundColor: "rgb(219, 57, 103)",
           barThickness: "flex",
           data: this.uservals
         }
@@ -157,7 +159,7 @@ export class ResultsPage implements OnInit {
       this.personality = await result.data().personality;
       this.physical = await result.data().physical;
       this.time = await result.data().time;
-      this.valueDreams = await result.data().valueDreams;
+      this.valueDreams = await result.data().valuesDreams;
       /*console.log(this.communication);
       console.log(typeof(this.communication)); */
       if(this.partner){
@@ -178,7 +180,7 @@ export class ResultsPage implements OnInit {
       this.ppersonality = await data.personality;
       this.pphysical = await data.physical;
       this.ptime = await data.time;
-      this.pvalueDreams = await data.valueDreams;
+      this.pvalueDreams = await data.valuesDreams;
       await this.setMaxData(); 
     });
   }
@@ -233,7 +235,6 @@ export class ResultsPage implements OnInit {
         valueDreamsUV
       ]
     this.uservals = uvs;
-    console.log(this.uservals);
     this.createListObject(); 
     this.createChart(partnerData);
   }
@@ -281,16 +282,51 @@ export class ResultsPage implements OnInit {
 
   async createListObject(){
     let pArr = [];
-    console.log(this.uservals);
 
     for(let el in this.categorys){
       this.list[el] = [
         this.categorys[el],
         this.uservals[el],
         this.partnervals[el],
-        this.icons[el]
+        this.icons[el],
+        false,
+        false
       ];
     }
+    await console.log(this.list);
+    this.setBestAndWorst(this.list);
+  }
+
+  extendCategory(name: string){
+    console.log(name);
+    this._nav.navigate(['/extended-category'], {queryParams: {name: name}});
+    //this.navCtrl.
+  }
+
+  setBestAndWorst(arr: any[]){
+    console.log(arr)
+    let vals = [];
+    let best = 0;
+    let worst = 999;
+    let positionBest = 0;
+    let positionWorst = 0;
+    for (let i of arr){
+      vals.push(i[1]);
+    }
+
+    for(let val = 0; val < arr.length; val++){
+      if(arr[val][1] > best){
+        best = arr[val][1];
+        positionBest = val;
+      }
+      if(arr[val][1] < worst){
+        worst = arr[val][1];
+        positionWorst = val;
+      }
+    }
+    arr[positionBest][4] = true;
+    arr[positionWorst][5] = true;
+    console.log(positionBest);
   }
 
 }

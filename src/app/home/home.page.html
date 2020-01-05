@@ -7,10 +7,20 @@
 </ion-header>
 
 <ion-content>
-
-  <div style="background-color: primary">
-
-  </div>
+<div class="background">
+  <!--<div style="background-color: #ffffff; height: 15%; display: hidden;">
+    <div align="center" style="margin-top: 5%; display: hidden;">
+      <span>
+        <ion-avatar style="display: inline-block">
+            <img src="../../assets/avatar-man.svg">
+        </ion-avatar>
+        <ion-avatar style="display: inline-block">
+            <img src="../../assets/avatar-woman.svg">
+        </ion-avatar>
+      </span>
+        <p>Jahrestag</p>
+    </div>
+  </div> -->
 
   <ion-item *ngIf="test==false" lines="none">
   <ion-card>
@@ -33,7 +43,7 @@
   <ion-item lines="none">
     <ion-card>
         <ion-card-header>
-          <ion-card-title>Eure Auswertung</ion-card-title>
+          <ion-card-title>Lifelong Test</ion-card-title>
             <div style="height: 10%; position: absolute; right: 5%; top: 15%">
                 <ion-button (click)="toResults()" fill="clear"><ion-icon name="arrow-forward"></ion-icon></ion-button>
               </div>
@@ -50,7 +60,7 @@
         <ion-card-title>Tipp des Tages</ion-card-title>
       </ion-card-header>
       <ion-card-content button="true">
-        Hier kommt der Tipp des Tages rein. <br>
+        <span id="tipp">Wie wäre es mit einem Date? Bestelle einen Tisch in einem schönen Restaurant, überrasche deinen Partner mit ein bisschen Romantik. </span> <br>
         <div align="right" style="height: 10%">
         <ion-button (click)="shareTipp()" fill="clear" slot="icon-only"><ion-icon name="share"></ion-icon></ion-button>
         </div>
@@ -63,15 +73,24 @@
     <ion-card>
       <ion-card-content>
        <ion-item>
-         <ion-label>{{ best[0] }}</ion-label>
-        <ion-label><font color="green"><b>{{ best[1] }}</b></font></ion-label>
+         <ion-label position="stacked">{{ best[0] }}</ion-label>
+        <ion-label style="text-align: right"><font color="green"><b>{{ best[1] | number:'1.0-0' }}</b></font></ion-label>
       </ion-item>
       <ion-item lines="none">
         <ion-label>{{ worst[0] }}</ion-label>
-        <ion-label><font color="red"><b>{{ worst[1] }}</b></font></ion-label>
+        <ion-label style="text-align: right"><font color="red"><b>{{ worst[1] | number:'1.0-0' }}</b></font></ion-label>
       </ion-item> 
       </ion-card-content>
     </ion-card>
-  </ion-item> 
+  </ion-item>
+  
+  <ion-item lines="none">
+    <ion-card>
+      <ion-card-content>
+       <ion-button expand="full" size="large" (click)="toSpecialTipps()">Zu den Special Tipps <ion-icon name="send" style="margin-right: 5%"></ion-icon></ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
 
+  </div>
 </ion-content>

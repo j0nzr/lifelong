@@ -142,7 +142,7 @@ export class ResultsService {
       this.personality = await result.data().personality;
       this.physical = await result.data().physical;
       this.time = await result.data().time;
-      this.valueDreams = await result.data().valueDreams;
+      this.valueDreams = await result.data().valuesDreams;
       console.log(this.communication);
       console.log(typeof(this.communication));
       if(this.partner){
@@ -163,7 +163,7 @@ export class ResultsService {
       this.ppersonality = await data.personality;
       this.pphysical = await data.physical;
       this.ptime = await data.time;
-      this.pvalueDreams = await data.valueDreams;
+      this.pvalueDreams = await data.valuesDreams;
       await this.setMaxData();
     });
   }

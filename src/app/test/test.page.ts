@@ -4,6 +4,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { DataService } from '../data.service';
 import { Slides } from 'ionic-angular';
 import { Router } from '@angular/router';
+import { DatePicker } from '@ionic-native/date-picker/ngx';
 
 @Component({
   selector: 'app-test',
@@ -15,14 +16,19 @@ export class TestPage implements OnInit {
   @ViewChild('slides', {static: false}) slides: Slides;
 
   public relLength: string;
+  public relDate: Date;
   public questions: any;
   public slider: any;
   public uid: string;
   public answer;
+  
+  
 
 
-  constructor(public _store: AngularFirestore, public _data: DataService, public _auth: AngularFireAuth, public _nav: Router) { 
+  constructor(public _store: AngularFirestore, public _data: DataService, public _auth: AngularFireAuth, public _nav: Router, 
+    public _date: DatePicker) { 
     this.uid = this._auth.auth.currentUser.uid;
+    console.log(this.uid);
   }
 
   ngOnInit() {
@@ -111,6 +117,32 @@ async next(question: any){
   //next slide
   this.slides.slideNext();
   this.answer = 0;
+}
+
+async relationshipDate()
+  {
+    //Add Data to Database
+    this._store.collection('user').doc(this.uid).update({
+      relationshipLength: this.relLength
+    });
+
+    //Load JS-File
+    this.questions = await this._data.load(this.relLength);    
+
+    //Change visibility
+    document.getElementsByClassName('start')[0].setAttribute("style", "display: none");
+    document.getElementsByClassName('test')[0].setAttribute("style", "");
+  }
+
+showDatePicker(){
+  this._date.show({
+    date: new Date(),
+    mode: 'date',
+    androidTheme: this._date.ANDROID_THEMES.THEME_HOLO_DARK
+  }).then(
+    date => console.log('Got date: ', date),
+    err => console.log('Error occurred while getting date: ', err)
+  );
 }
 
 toHome()

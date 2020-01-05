@@ -32,11 +32,6 @@
         "isReversed": false
     },
     {
-        "text": "Mein Partner lässt mich grundsätzlich immer ausreden.",
-        "type": "communication",
-        "isReversed": false
-    },
-    {
         "text": "Mein Partner hört mir immer aufmerksam zu, das sehe ich an seinem Blick und seinen Reaktionen.",
         "type": "communication",
         "isReversed": false
@@ -82,11 +77,6 @@
         "isReversed": true
     },
     {
-        "text": "Ich schäme mich manchmal vor meinem Partner.",
-        "type": "honestyTrust",
-        "isReversed": true
-    },
-    {
         "text": "Ich kann über alles mit meinem Partner sprechen.",
         "type": "honestyTrust",
         "isReversed": false
@@ -98,11 +88,6 @@
     },
     {
         "text": "Ich finde es wichtig, dass man über die Vergangenheit des Partners Bescheid weiß.",
-        "type": "honestyTrust",
-        "isReversed": false
-    },
-    {
-        "text": "Unsere Beziehung ist darauf geründet, dass wir zueinander offen und ehrlich sind.",
         "type": "honestyTrust",
         "isReversed": false
     },
@@ -120,11 +105,6 @@
         "text": "Mein Partner ist sehr hilfsbereit, er hilft mir oft.",
         "type": "needs",
         "isReversed": false
-    },
-    {
-        "text": "Ich habe häufig Angst, dass mein Partner mich nicht wirklich liebt.",
-        "type": "needs",
-        "isReversed": true
     },
     {
         "text": "Ich fühle mich total geborgen in meiner Beziehung.",
@@ -153,11 +133,6 @@
     },
     {
         "text": "Ich finde, wir passen perfekt zusammen.",
-        "type": "personality",
-        "isReversed": false
-    },
-    {
-        "text": "Mein Partner ist oft ganz anders als ich, aber damit komme ich gut zurecht.",
         "type": "personality",
         "isReversed": false
     },
@@ -303,16 +278,6 @@
     },
     {
         "text": "Wir streiten uns häufig über Politik oder Glaubensfragen.",
-        "type": "valuesDreams",
-        "isReversed": true
-    },
-    {
-        "text": "Die Basis meiner Wertvorstellungen und die meines Partner sind identisch.",
-        "type": "valuesDreams",
-        "isReversed": false
-    },
-    {
-        "text": "Mein Partner hält mich häufig für zu extrem.",
         "type": "valuesDreams",
         "isReversed": true
     }

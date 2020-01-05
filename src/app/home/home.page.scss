@@ -1,3 +1,18 @@
 ion-card{
     width: 100% !important;
+    --background: white;
   }
+  /*.changeBG{
+    background-color: #d5ffd5!important;
+  }*/
+
+  ion-content{
+    //--ion-background-color: gray !important;
+    --background: url('../../assets/—Pngtree—white\ background\ with\ abstract\ geometric_1138219.jpeg') no-repeat center/cover fixed;
+  }
+
+  ion-item{
+    --background: rgba(0,0,0,0);
+    z-index: 9999;
+  }
+

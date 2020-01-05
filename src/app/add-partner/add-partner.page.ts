@@ -5,6 +5,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 import { Router } from '@angular/router';
 import { AngularFireDatabase } from '@angular/fire/database';
 import { ToastController } from 'ionic-angular';
+import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 
 @Component({
   selector: 'app-add-partner',
@@ -17,10 +18,11 @@ export class AddPartnerPage implements OnInit {
   public uid = this._auth.auth.currentUser.uid;
   public ownCode: string;
   public partnerCode: string;
+  public barcodePartner: string;
   barcodeScannerOptions: BarcodeScannerOptions;
 
   constructor(private _bcScan: BarcodeScanner, private _auth: AngularFireAuth,
-    private _store: AngularFirestore, private _nav: Router, public _data: AngularFireDatabase) {
+    private _store: AngularFirestore, private _nav: Router, public _data: AngularFireDatabase, private _share: SocialSharing) {
       this.ownCode = this.randomCode();
       this._store.collection('user').doc(this.uid).set({
         partnerCode: this.ownCode
@@ -36,14 +38,7 @@ export class AddPartnerPage implements OnInit {
     this._bcScan
       .scan()
       .then(barcodeData => {
-        partnersCode = barcodeData.text;
-        let partner = this._store.collection('user', ref => ref.where('partnerCode', '==', partnersCode));
-        let partnerUid = partner.get().subscribe();
-        this._store.collection('user').doc(this.uid).update({
-          partnersCode: partner.get()
-        });
-      }).then(barcodeData => {
-        this.findPartnerByPartnerCode(partnersCode);
+        this.findPartnerByPartnerCode(barcodeData.text);
       });
     }else{
       this.findPartnerByPartnerCode(this.partnerCode);
@@ -108,6 +103,10 @@ export class AddPartnerPage implements OnInit {
       }
     });
     //console.log(partner);
+  }
+
+  shareCode(){
+    this._share.share("Füge mich als dein Partner in der Lifelong App hinzu: " + this.ownCode);
   }
 
 }

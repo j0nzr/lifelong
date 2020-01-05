@@ -6,9 +6,11 @@
 
 <ion-content>
 
-    <div style="background-color: #e62b60; height: 17%">
-        <ion-button fill="clear" style="--color: white" (click)="backButton()">&lt;  Back</ion-button>
-    </div>
+   <!-- <div style="background-color: #e62b60; height: 17%">
+        
+    </div>-->
+
+    <ion-button fill="clear" style="--color: primary" (click)="backButton()">&lt;  Back</ion-button>
 
     <ion-list>
       <ion-item>
@@ -22,8 +24,8 @@
       <ion-item lines="none">
         <ion-checkbox [(ngModel)]="remember"></ion-checkbox>
         <ion-label>Angemeldet bleiben</ion-label> <br>
-        <ion-button fill="clear" (click)="passwordLost()" slot="end">Passwort vergessen</ion-button>
       </ion-item>
+      <ion-button fill="clear" (click)="passwordLost()" slot="end">Passwort vergessen</ion-button>
       <ion-button expand="block" (click)="login()">Login</ion-button>
     </ion-list>
 

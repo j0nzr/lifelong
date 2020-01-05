@@ -11,6 +11,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-navigation href="https://googleads.g.doubleclick.net/*" />
+    <allow-navigation href="https://static.doubleclick.net/*" />
+    <allow-navigation href="https://*youtube.com/*" />
     <preference name="ScrollEnabled" value="false" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="BackupWebStorage" value="none" />
@@ -91,12 +94,11 @@
     <plugin name="cordova-plugin-telerik-imagepicker" spec="2.3.3">
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="Getting Profile Picture" />
     </plugin>
-    <engine name="ios" spec="4.5.5" />
-    <engine name="browser" spec="5.0.4" />
-    <engine name="android" spec="7.1.4" />
     <plugin name="cordova-plugin-x-socialsharing" spec="5.6.2">
         <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.1+" />
         <variable name="PHOTO_LIBRARY_ADD_USAGE_DESCRIPTION" value="This app requires photo library access to function properly." />
         <variable name="PHOTO_LIBRARY_USAGE_DESCRIPTION" value="This app requires photo library access to function properly." />
     </plugin>
+    <plugin name="cordova-plugin-datepicker" spec="0.9.3" />
+    <engine name="android" spec="7.1.4" />
 </widget>

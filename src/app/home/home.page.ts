@@ -5,6 +5,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 import { Chart } from 'chart.js';
 import { ResultsService } from '../results.service';
 import { Observable } from 'rxjs'; 
+import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 
 @Component({
   selector: 'app-home',
@@ -28,7 +29,7 @@ export class HomePage {
   worst: any[] = ["", 0];
   results: ResultsService;
 
-  constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth) {
+  constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth, public _share: SocialSharing, public service: ResultsService) {
     this.hasPartner(this._afAuth.auth.currentUser);
     this.testDone(this._afAuth.auth.currentUser);
     this._afData.collection('user').doc(this.uid).get().subscribe(async result => {
@@ -116,13 +117,15 @@ export class HomePage {
   async setBestAndWorst(){
     let bestValue = ["", 0];
     let worstValue = ["", 1000];
-    let arr = [["Kommunikation", this.communication], 
-              ["Ehrlichkeit/Vertrauen", this.honestyTrust],
-              ["Persönlichkeit", this.personality], 
-              ["Physisches", this.physical],
-              ["Werte/Träume", this.valueDreams], 
-              ["Zeit", this.time],
-              ["Bedürfnisse", this.needs]];
+    let arr = [["Kommunikation", ((this.communication/55)*100)], 
+              ["Ehrlichkeit/Vertrauen", (this.honestyTrust/35)*100],
+              ["Persönlichkeit", ((this.personality/40)*100)], 
+              ["Zärtlichkeit", ((this.physical/35)*100)],
+              ["Werte/Träume", ((this.valueDreams/40)*100)], 
+              ["Zeit", ((this.time/40)*100)],
+              ["Bedürfnisse", ((this.needs/40)*100)]];
+
+            console.log(arr);
 
     for (let bq of arr){
       if(bq[1] > bestValue[1]){
@@ -134,10 +137,20 @@ export class HomePage {
     }
 
     this.best = bestValue;
+    //this.best.push((this.best[1]/this.best[2])*100);
     this.worst = worstValue;
+    //this.worst.push((this.worst[1]/this.best[2])*100)
    
     return [bestValue, worstValue];
     
+  }
+
+  shareTipp(){
+    this._share.share("Hey. Schau dir doch mal den heutigen Tipp des Tages in der Lifelong App an:" + document.getElementById("tipp").innerHTML);
+  }
+
+  toSpecialTipps(){
+    this._router.navigateByUrl('/tabs/tabs/special-tipps');
   }
 
 }

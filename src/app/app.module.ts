@@ -23,6 +23,11 @@ import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { HttpModule } from '@angular/http';
 import { IonicStorageModule } from '@ionic/storage';
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
+import { DatePicker } from '@ionic-native/date-picker/ngx';
+import { HttpClientModule } from '@angular/common/http';
+import { AlertController } from '@ionic/angular';
+
+
 
 
 @NgModule({
@@ -58,6 +63,8 @@ import { SocialSharing } from '@ionic-native/social-sharing/ngx';
     AngularFireDatabase,
     BarcodeScanner,
     SocialSharing,
+    DatePicker,
+    AlertController,
     //ImagePicker,
     //Camera,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }

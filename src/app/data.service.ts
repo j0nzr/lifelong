@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import 'rxjs/add/operator/map';
 import { Http } from '@angular/http';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -28,6 +29,16 @@ export class DataService {
 
         });
 
+    }
+
+    loadCategoryThings(){
+        return new Promise(resolve => {
+        this.http.get('./assets/specialTippPages.json').map(res => res.json()).subscribe(data => {
+            this.data = data.data;
+            console.log(this.data);
+            resolve(this.data);
+        });
+        });
     }
 
 

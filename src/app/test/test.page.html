@@ -1,72 +1,95 @@
 <ion-header>
-</ion-header>
-
-<ion-content>
-
-  <div class="welcome" align="center" style="margin-top: 40%">
-
-      <h1>Lasst uns nun deine Beziehungsqualitäten ausarbeiten!</h1>
-
-    <ion-button size="large" style="width: 70%" (click)="start('welcome')">Start</ion-button> 
-    <ion-button size="large" style="width: 70%" (click)="toHome()">Später</ion-button>
-
-  </div>
-
-   <div class="start" style="display: none">
-    <ion-list>
-      <ion-radio-group [(ngModel)]="relLength">
-        <ion-list-header>
-          <ion-label>Kurz vorab: Wie lange sind du und dein Partner/deine Partnerin bereits zusammen?</ion-label>
-        </ion-list-header>
-
-        <ion-item>
-            <ion-label>Weniger als 4 Jahre</ion-label>
-            <ion-radio slot="start" value="0-3"></ion-radio>
+  </ion-header>
+  
+  <ion-content>
+  
+    <div class="welcome" align="center" style="margin-top: 40%">
+  
+        <h1>Lasst uns nun deine Beziehungsqualitäten ausarbeiten!</h1>
+  
+      <ion-button size="large" style="width: 70%" (click)="start('welcome')">Start</ion-button> 
+      <ion-button size="large" style="width: 70%" (click)="toHome()">Später</ion-button>
+  
+    </div>
+  
+     <div class="start" style="display: none">
+      <ion-list>
+        <ion-radio-group [(ngModel)]="relLength">
+          <ion-list-header>
+            <ion-label>Kurz vorab: Wie lange sind du und dein Partner/deine Partnerin bereits zusammen?</ion-label>
+          </ion-list-header>
+  
+          <ion-item>
+              <ion-label>Weniger als 4 Jahre</ion-label>
+              <ion-radio slot="start" value="0-3"></ion-radio>
+            </ion-item>
+  
+          <ion-item>
+            <ion-label>Mehr als 4 Jahre</ion-label>
+            <ion-radio slot="start" value="4+"></ion-radio>
           </ion-item>
+  
+        </ion-radio-group>
+      </ion-list>
+      <ion-item lines="none" *ngIf="relLength">
+       <ion-button size="medium" slot="end" (click)="relationshipLength()">Weiter</ion-button> 
+      </ion-item>
+      <p>{{ relLength }}</p>
+      
+    </div>
+  
+    <div class="test" style="display: none">
+      <ion-slides #slides [options]="{followFinger: false, allowTouchMove: false}">
+        <ion-slide *ngFor="let question of questions; let i = index;" style="display: block">
+            <h3>Frage {{i+1}}/63</h3>
+            {{question.text}}
+              
+              <ion-list>
+                <ion-radio-group [(ngModel)]="answer">
+                  <ion-item>
+                    <ion-label>Trifft voll zu</ion-label>
+                    <ion-radio slot="start" value="5"></ion-radio>
+                  </ion-item>
 
-        <ion-item>
-          <ion-label>Mehr als 4 Jahre</ion-label>
-          <ion-radio slot="start" value="4+"></ion-radio>
-        </ion-item>
+                  <ion-item>
+                    <ion-label>Trifft meistens zu</ion-label>
+                    <ion-radio slot="start" value="4"></ion-radio>
+                  </ion-item>
 
-      </ion-radio-group>
-    </ion-list>
-    <ion-item lines="none" *ngIf="relLength">
-     <ion-button size="medium" slot="end" (click)="relationshipLength()">Weiter</ion-button> 
-    </ion-item>
-    
-  </div>
+                  <ion-item>
+                    <ion-label>Trifft manchmal zu</ion-label>
+                    <ion-radio slot="start" value="3"></ion-radio>
+                  </ion-item>
 
-  <div class="test" style="display: none">
-    <ion-slides #slides [options]="{followFinger: false, allowTouchMove: false}">
-      <ion-slide *ngFor="let question of questions; let i = index;" style="display: block">
-          <h3>Frage {{i+1}}/63</h3>
-          {{question.text}}
-            
-            <ion-item lines="none">
-                <ion-range min="1" max="5" steps="1" snaps="true" ticks="true" [(ngModel)]="answer"></ion-range>
-            </ion-item>
+                  <ion-item>
+                    <ion-label>Trifft selten zu</ion-label>
+                    <ion-radio slot="start" value="2"></ion-radio>
+                  </ion-item>
 
-            <p>1 = Ich stimme der Aussage nicht zu</p>
-            <p>5 = Ich stimme der Aussage voll zu</p>
-
-            <ion-item lines="none">
-              <ion-button size="medium" slot="end" (click)="next(question)">Weiter</ion-button>
-            </ion-item>
- 
-      </ion-slide>
-      <ion-slide>
-          <div align="center" style="margin-top: 40%">
-
-              <h1>Du bist mit dem Test durch! Du kannst nun deine Ergebnisse einsehen!</h1>
-        
-            <ion-button size="large" style="width: 70%" (click)="toResults()">Ergebnisse einsehen</ion-button> 
-            <ion-button size="large" style="width: 70%" (click)="toHome()">Zum Start</ion-button>
-        
-          </div>
-      </ion-slide>
-    </ion-slides>
-  </div>
-
-
-</ion-content>
+                  <ion-item>
+                    <ion-label>Trifft nie zu</ion-label>
+                    <ion-radio slot="start" value="1"></ion-radio>
+                  </ion-item>
+                </ion-radio-group>
+              </ion-list>
+  
+              <ion-item lines="none">
+                <ion-button size="medium" slot="end" (click)="next(question)">Weiter</ion-button>
+              </ion-item>
+   
+        </ion-slide>
+        <ion-slide>
+            <div align="center" style="margin-top: 40%">
+  
+                <h1>Du bist mit dem Test durch! Du kannst nun deine Ergebnisse einsehen!</h1>
+          
+              <ion-button size="large" style="width: 70%" (click)="toResults()">Ergebnisse einsehen</ion-button> 
+              <ion-button size="large" style="width: 70%" (click)="toHome()">Zum Start</ion-button>
+          
+            </div>
+        </ion-slide>
+      </ion-slides>
+    </div>
+  
+  
+  </ion-content>
