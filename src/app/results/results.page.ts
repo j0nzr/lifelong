@@ -283,6 +283,8 @@ export class ResultsPage implements OnInit {
   async createListObject(){
     let pArr = [];
 
+    if(this.partnervals){
+
     for(let el in this.categorys){
       this.list[el] = [
         this.categorys[el],
@@ -293,6 +295,18 @@ export class ResultsPage implements OnInit {
         false
       ];
     }
+  }else{
+    for(let el in this.categorys){
+      this.list[el] = [
+        this.categorys[el],
+        this.uservals[el],
+        //this.partnervals[el],
+        this.icons[el],
+        false,
+        false
+      ];
+    }
+  }
     await console.log(this.list);
     this.setBestAndWorst(this.list);
   }

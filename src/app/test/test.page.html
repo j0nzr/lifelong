@@ -1,20 +1,24 @@
 <ion-header>
-  </ion-header>
+  <ion-toolbar>
+    <ion-title>Der Beziehungstest</ion-title>
+  </ion-toolbar>
+</ion-header>
   
   <ion-content>
   
     <div class="welcome" align="center" style="margin-top: 40%">
   
-        <h1>Lasst uns nun deine Beziehungsqualitäten ausarbeiten!</h1>
+        <h1>Lass uns nun deine Beziehungsqualitäten ausarbeiten!</h1>
   
       <ion-button size="large" style="width: 70%" (click)="start('welcome')">Start</ion-button> 
       <ion-button size="large" style="width: 70%" (click)="toHome()">Später</ion-button>
   
     </div>
   
-     <div class="start" style="display: none">
+    <div class="start container" style="display: none">
+     <div class="center">
       <ion-list>
-        <ion-radio-group [(ngModel)]="relLength">
+        <ion-radio-group (ionChange)="relationshipLength($event)">
           <ion-list-header>
             <ion-label>Kurz vorab: Wie lange sind du und dein Partner/deine Partnerin bereits zusammen?</ion-label>
           </ion-list-header>
@@ -34,11 +38,11 @@
       <ion-item lines="none" *ngIf="relLength">
        <ion-button size="medium" slot="end" (click)="relationshipLength()">Weiter</ion-button> 
       </ion-item>
-      <p>{{ relLength }}</p>
-      
     </div>
+  </div>
   
-    <div class="test" style="display: none">
+  <div class="test container" style="display: none">
+    <div class="center">
       <ion-slides #slides [options]="{followFinger: false, allowTouchMove: false}">
         <ion-slide *ngFor="let question of questions; let i = index;" style="display: block">
             <h3>Frage {{i+1}}/63</h3>
@@ -90,6 +94,7 @@
         </ion-slide>
       </ion-slides>
     </div>
+  </div>
   
   
   </ion-content>

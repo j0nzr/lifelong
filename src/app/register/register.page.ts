@@ -27,14 +27,14 @@ const normalizeURL = require('normalize-url');
 export class RegisterPage implements OnInit {
 
 
-  public prename: string;
-  public name: string;
+  //public prename: string;
+  //public name: string;
   public email: string;
   public password: string;
-  public gender: string;
-  public birth: string;
-  public profilePic: any;
-  public genderIcon: string = "female";
+  //public gender: string;
+  //public birth: string;
+  //public profilePic: any;
+  //public genderIcon: string = "female";
   public jahrestag: string;
   public files: Observable<any[]>;
 
@@ -58,29 +58,29 @@ export class RegisterPage implements OnInit {
     this._location.back();
   }
 
-  maleFemaleChange(){
+  /*maleFemaleChange(){
     if(this.gender == "m"){
       this.genderIcon = "male";
     }else{
       this.genderIcon="female";
     }
-  }
+  } */
 
   async registerUser(){
     let nav = this.nav;
       await this.afAuth.auth.createUserWithEmailAndPassword(this.email, this.password);
       var userId = this.afAuth.auth.currentUser.uid;
-      if (!this.profilePic){
+      /*if (!this.profilePic){
         this.profilePic = "";
-      }
+      } */
       if(this.jahrestag){
       var userData = this.afData.collection('user').doc(userId).set({
         email: this.email,
-        gender: this.gender,
+        /*gender: this.gender,
         name: this.name,
         prename: this.prename,
         birth: this.birth,
-        profilePic: this.profilePic,
+        profilePic: this.profilePic, */
         jahrestag: this.jahrestag,
         test: false,
         partner: false
@@ -90,11 +90,11 @@ export class RegisterPage implements OnInit {
     }else{
       var userData = this.afData.collection('user').doc(userId).set({
         email: this.email,
-        gender: this.gender,
+        /*gender: this.gender,
         name: this.name,
         prename: this.prename,
         birth: this.birth,
-        profilePic: this.profilePic,
+        profilePic: this.profilePic, */
         test: false,
         partner: false
       }).then(function() {

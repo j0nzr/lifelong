@@ -19,6 +19,7 @@ export class QuestionsPage implements OnInit {
   relLen: string;
   questions: any[];
   tipps: any[];
+  message: string;
 
   constructor(public _auth: AngularFireAuth, public _store: AngularFirestore, public _activeRoute: ActivatedRoute,
     public _service: DataService, public _nav: NavController, public _alert: AlertController) { 
@@ -50,8 +51,13 @@ export class QuestionsPage implements OnInit {
       if(el["type"]==this.title){
         console.log(el);
         q.push(el["text"]);
-        t.push(el["tips"]["text"]);
+        if(el["tips"]["listitems"]){
+          t.push([el["tips"]["text"], el["tips"]["listitems"]]);
+        } else{
+          t.push(el["tips"]["text"]);
+        }
       }
+      console.log(t);
       
     }
     console.log(t);
@@ -66,9 +72,20 @@ export class QuestionsPage implements OnInit {
 
   async tipp(question: string){
     let position = this.getPosition(question);
+    if(this.tipps[position][1]){
+      this.message = this.tipps[position][0];
+      this.message += "<ul>"
+      for(let l of this.tipps[position][1]){
+        this.message += "<li>" + l + "</li>"
+      }
+      this.message += "</ul>"
+
+    }else{
+      this.message = this.tipps[position];
+    }
     const alert = await this._alert.create({
       header: 'Tipp',
-      message: this.tipps[position],
+      message: this.message,
       buttons: ['Okay']
     });
 

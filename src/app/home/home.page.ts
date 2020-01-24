@@ -28,6 +28,7 @@ export class HomePage {
   best: any[] = ["", 0];
   worst: any[] = ["", 0];
   results: ResultsService;
+  tipp: any;
 
   constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth, public _share: SocialSharing, public service: ResultsService) {
     this.hasPartner(this._afAuth.auth.currentUser);
@@ -42,6 +43,7 @@ export class HomePage {
       this.time = await data.time;
       this.needs = await data.needs;
       await this.setBestAndWorst();
+      await this.getTipp();
       //this._router.navigateByUrl('/test');
       //console.log(this.barChart);
     });
@@ -99,6 +101,14 @@ export class HomePage {
           partner = false;
         }
         this.partner = partner;
+      }
+    );
+  }
+
+  async getTipp(){
+    let data = await this._afData.collection('tipp').doc("kq2AnZbGdOM1fGHBg59i").get().subscribe(
+      (result) => {
+        this.tipp = result.data().heute;
       }
     );
   }

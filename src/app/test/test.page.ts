@@ -62,8 +62,9 @@ export class TestPage implements OnInit {
     });
   }
 
-  async relationshipLength()
+  async relationshipLength(event)
   {
+    this.relLength = event.detail.value;
     //Add Data to Database
     this._store.collection('user').doc(this.uid).update({
       relationshipLength: this.relLength
