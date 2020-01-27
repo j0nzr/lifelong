@@ -35,7 +35,7 @@
     <plugin name="cordova-plugin-inappbrowser" spec="3.1.0" />
     <plugin name="cordova-sqlite-storage" spec="3.4.0" />
     <plugin name="cordova-android-support-gradle-release" spec="3.0.1">
-        <variable name="ANDROID_SUPPORT_VERSION" value="26.+" />
+        <variable name="ANDROID_SUPPORT_VERSION" value="28.+" />
     </plugin>
     <platform name="android">
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
