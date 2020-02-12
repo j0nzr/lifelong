@@ -8,15 +8,15 @@
 <ion-content>
 
   <div class="qr-container" align="center">
-    <ngx-qrcode [(qrc-value)]="ownCode"></ngx-qrcode>
-    <p>{{ ownCode }}</p>
+    <!--<ngx-qrcode [(qrc-value)]="ownCode"></ngx-qrcode> -->
+    <h1>{{ ownCode }}</h1>
   </div>
 
    <p style="margin: 0 10% 0 10%">Hier kannst du dich mit deinem Partner verbinden. Dafür muss einer von euch den Partnercode scannen oder eingeben</p>
 
    <ion-item style="width: 80%;margin: 3% 10% 3% 10%">
       <ion-input placeholder="Partnercode eingeben" (ionChange)="inputChange()" [(ngModel)]="partnerCode"></ion-input>
-      <ion-button clear item-right (click)="scanCode()"><ion-icon [name]="icon"></ion-icon></ion-button>
+      <ion-button clear item-right (click)="scanCode()"><ion-icon name="send"></ion-icon></ion-button>
     </ion-item>
 
     <p style="margin: 0 10% 0 10%">Starte die App bitte neu sobald dich dein Partner hinzugefügt hat!</p>

@@ -33,7 +33,7 @@ export class AddPartnerPage implements OnInit {
   }
 
   scanCode(){
-    var partnersCode;
+    /*var partnersCode;
     if(!this.partnerCode){
     this._bcScan
       .scan()
@@ -42,7 +42,14 @@ export class AddPartnerPage implements OnInit {
       });
     }else{
       this.findPartnerByPartnerCode(this.partnerCode);
-    }
+    } */
+   /* if(!this.partnerCode){
+      alert("Bitte geben Sie einen Partnercode ein")
+    }else{
+      this.findPartnerByPartnerCode(this.partnerCode);
+    } */
+    let date = new Date();
+    console.log(date.getDate(), date.getMonth(), date.getFullYear());
   }
 
   encodeText(){
