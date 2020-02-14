@@ -6,6 +6,9 @@ import { Chart } from 'chart.js';
 import { ResultsService } from '../results.service';
 import { Observable } from 'rxjs'; 
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpModule, Http } from '@angular/http';
 
 @Component({
   selector: 'app-home',
@@ -29,8 +32,14 @@ export class HomePage {
   worst: any[] = ["", 0];
   results: ResultsService;
   tipp: any;
+  date: any;
 
   constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth, public _share: SocialSharing, public service: ResultsService) {
+    let pDate = new Date();
+    let year = pDate.getFullYear();
+    let month = pDate.getMonth() + 1;
+    let day = pDate.getDate();
+    this.date = year + "/" + month + "/" + day;
     this.hasPartner(this._afAuth.auth.currentUser);
     this.testDone(this._afAuth.auth.currentUser);
     this._afData.collection('user').doc(this.uid).get().subscribe(async result => {
@@ -108,7 +117,7 @@ export class HomePage {
   async getTipp(){
     let data = await this._afData.collection('tipp').doc("kq2AnZbGdOM1fGHBg59i").get().subscribe(
       (result) => {
-        this.tipp = result.data().heute;
+        this.tipp = result.data()[this.date];
       }
     );
   }
@@ -135,7 +144,7 @@ export class HomePage {
               ["Zeit", ((this.time/40)*100)],
               ["Bedürfnisse", ((this.needs/40)*100)]];
 
-            console.log(arr);
+            //console.log(arr);
 
     for (let bq of arr){
       if(bq[1] > bestValue[1]){

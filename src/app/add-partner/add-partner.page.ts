@@ -43,13 +43,13 @@ export class AddPartnerPage implements OnInit {
     }else{
       this.findPartnerByPartnerCode(this.partnerCode);
     } */
-   /* if(!this.partnerCode){
+    if(!this.partnerCode){
       alert("Bitte geben Sie einen Partnercode ein")
     }else{
       this.findPartnerByPartnerCode(this.partnerCode);
-    } */
-    let date = new Date();
-    console.log(date.getDate(), date.getMonth(), date.getFullYear());
+    } 
+    /*let date = new Date();
+    console.log(date.getDate(), date.getMonth(), date.getFullYear()); */
   }
 
   encodeText(){

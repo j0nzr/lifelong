@@ -26,6 +26,7 @@ import { SocialSharing } from '@ionic-native/social-sharing/ngx';
 import { DatePicker } from '@ionic-native/date-picker/ngx';
 import { HttpClientModule } from '@angular/common/http';
 import { AlertController } from '@ionic/angular';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -44,6 +45,7 @@ import { AlertController } from '@ionic/angular';
     HttpModule,
     IonicModule.forRoot(),
     IonicStorageModule.forRoot(),
+    TranslateModule.forRoot(),
     NgxAuthFirebaseUIModule.forRoot(
       firebaseConfig,
       () => 'lifelong',
