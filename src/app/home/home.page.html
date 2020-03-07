@@ -92,5 +92,18 @@
     </ion-card>
   </ion-item>
 
+  <ion-item lines="none" (*ngIf)="additionalFields['Sichtbar']">
+    <ion-card>
+      <img (src)="additionalFields['Bild']"/>
+      <ion-card-header>
+        <ion-card-title>{{ additionalFields["Titel"] }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <span>{{ additionalFields["Inhalt"] }}</span>
+       <ion-button expand="full" size="large" (click)="toSpecialTipps()">{{ additionalFields['Buttontext'] }} <ion-icon (name)="additionalFields['Icon']" style="margin-right: 5%"></ion-icon></ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-item>
+
   </div>
 </ion-content>

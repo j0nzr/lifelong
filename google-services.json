@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "965826356748",
+    "firebase_url": "https://lifelong-59c55.firebaseio.com",
+    "project_id": "lifelong-59c55",
+    "storage_bucket": "lifelong-59c55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965826356748:android:d2e7cc06d2081c75aab029",
+        "android_client_info": {
+          "package_name": "com.lifelong.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965826356748-l2fsvmg75u3jd4ta8bchq5d85np1sgk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC95Fdx5B2YeSRYsKG0P2KggoSIjJt_f1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965826356748-l2fsvmg75u3jd4ta8bchq5d85np1sgk9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "965826356748-16sb4ts1a5q0l1kk1sk6pbhjvhne439n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lifelong.app",
+                "app_store_id": "1492357973"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

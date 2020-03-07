@@ -33,6 +33,7 @@ export class HomePage {
   results: ResultsService;
   tipp: any;
   date: any;
+  additionalFields: object;
 
   constructor(private _router: Router, private _afData: AngularFirestore, private _afAuth: AngularFireAuth, public _share: SocialSharing, public service: ResultsService) {
     let pDate = new Date();
@@ -53,6 +54,7 @@ export class HomePage {
       this.needs = await data.needs;
       await this.setBestAndWorst();
       await this.getTipp();
+      await this.getAdditionalFields();
       //this._router.navigateByUrl('/test');
       //console.log(this.barChart);
     });
@@ -120,6 +122,17 @@ export class HomePage {
         this.tipp = result.data()[this.date];
       }
     );
+  }
+
+  async getAdditionalFields(){
+    let data = await this._afData.collection('start').doc("additionalField").get().subscribe(
+      async (result) => {
+        for(let key of Object.keys(result.data())){
+          this.additionalFields = result.data();
+        }
+      }
+    );
+
   }
 
 
